@@ -1,6 +1,6 @@
 # 🎮 Esports Tournament Analytics
 
-> A end-to-end SQL analytics project built on a custom esports data warehouse — exploring player performance, tournament trends, and competitive insights across multiple game titles.
+> An end-to-end SQL analytics project built on a custom esports data warehouse — exploring player performance, tournament trends, and competitive insights across multiple game titles.
 
 ---
 
@@ -16,10 +16,10 @@ The goal is to extract meaningful insights from esports match data, including pl
 
 ```
 ESportsTournamentDW
-└── esports (schema)
-    ├── dim_players        — Player profiles, roles, orgs, salaries
-    ├── dim_tournaments    — Tournament details, formats, prize pools
-    └── fact_matchstats   — Match-level performance stats per player
+ [esports]
+   > dim_players       — Player profiles, roles, orgs, salaries
+   > dim_tournaments   — Tournament details, formats, prize pools
+   > fact_matchstats   — Match-level performance stats per player
 ```
 
 **Relationships:**
@@ -35,31 +35,28 @@ dim_tournaments ───────┘
 
 ```
 esports-tournament-analytics/
-│
-├── 📁 datasets/
-│   └── 📁 csv-files/
-│       ├── esports.dim_players.csv
-│       ├── esports.dim_tournaments.csv
-│       └── esports.fact_matchstats.csv
-│
-├── 📁 scripts/
-│   ├── 00_init_database.sql
-│   ├── 01_database_exploration.sql
-│   ├── 02_dimensions_exploration.sql
-│   ├── 03_date_range_exploration.sql
-│   ├── 04_measures_exploration.sql
-│   ├── 05_core_metrics_analysis.sql
-│   ├── 06_ranking_analysis.sql
-│   ├── 07_change_over_time_analysis.sql
-│   ├── 08_cumulative_analysis.sql
-│   ├── 09_performance_analysis.sql
-│   ├── 10_data_segmentation.sql
-│   ├── 11_part_to_whole_analysis.sql
-│   ├── 12_report_players.sql
-│   └── 13_report_tournaments.sql
-│
-├── LICENSE
-└── README.md
+ [datasets]
+   [csv-files]
+     > esports.dim_players.csv
+     > esports.dim_tournaments.csv
+     > esports.fact_matchstats.csv
+ [scripts]
+     > 00_init_database.sql
+     > 01_database_exploration.sql
+     > 02_dimensions_exploration.sql
+     > 03_date_range_exploration.sql
+     > 04_measures_exploration.sql
+     > 05_core_metrics_analysis.sql
+     > 06_ranking_analysis.sql
+     > 07_change_over_time_analysis.sql
+     > 08_cumulative_analysis.sql
+     > 09_performance_analysis.sql
+     > 10_data_segmentation.sql
+     > 11_part_to_whole_analysis.sql
+     > 12_report_players.sql
+     > 13_report_tournaments.sql
+ > LICENSE
+ > README.md
 ```
 
 ---
@@ -108,11 +105,17 @@ esports-tournament-analytics/
 
 ---
 
-## 📬 Connect With Me
+## 🌟 About Me
 
-**Collins Odoh**  
-📎 [LinkedIn](https://www.linkedin.com/in/collins-odoh-97b497382)  
-💻 [GitHub](https://github.com/Chico011)
+Hi there! I'm **Collins Odoh**, a Computer and Information Systems student from BYU–Pathway Worldwide with a background in cybersecurity and an interest in data analytics. I use SQL and other data tools to work with data in a clear and structured way. I am currently developing my skills to apply data analytics to real-world problems and support better decision-making.
+
+📎 [LinkedIn](https://www.linkedin.com/in/collins-odoh-97b497382) — feel free to connect!
+
+---
+
+## 🛡️ License
+
+This project is licensed under the MIT License. You are free to use, modify, and share it with proper attribution.
 
 ---
 
