@@ -1,0 +1,211 @@
+tournament_key,tournament_id,tournament_name,game_title,region,start_date,end_date,prize_pool_usd,team_count,format,stage,venue,sponsor
+1,TOUR0001,Overwatch 2 Open 2023,Overwatch 2,APAC,2023-10-11,2023-10-24,1000000,25,Double Elimination,Grand Final,Seoul Olympic Hall,Secretlab
+2,TOUR0002,Rocket League Open 2021,Rocket League,EU,2021-01-21,2021-02-03,25000,9,GSL,Wild Card,ESL One Cologne,Intel
+3,TOUR0003,League of Legends Masters 2020,League of Legends,LATAM,2020-07-25,2020-08-05,10000,22,Double Elimination,Playoffs,Online,Intel
+4,TOUR0004,Dota 2 Cup 2023,Dota 2,APAC,2023-01-10,2023-01-15,10000,12,Double Elimination,Playoffs,Palacio Vistalegre Madrid,NVIDIA
+5,TOUR0005,Fortnite Championship 2021,Fortnite,APAC,2021-04-30,2021-05-06,50000,29,Swiss,Playoffs,Seoul Olympic Hall,ASUS ROG
+6,TOUR0006,CS2 Invitational 2023,CS2,ME,2023-07-06,2023-07-18,1000000,25,Round Robin,Grand Final,Online,Monster Energy
+7,TOUR0007,Apex Legends Major 2022,Apex Legends,APAC,2022-04-16,2022-04-20,250000,20,Double Elimination,Quarter-Final,Paris La Défense Arena,Logitech
+8,TOUR0008,CS2 Open 2022,CS2,APAC,2022-08-06,2022-08-08,1000000,21,Swiss,Playoffs,Coca-Cola Arena Dubai,Logitech
+9,TOUR0009,Fortnite Major 2023,Fortnite,LATAM,2023-08-17,2023-08-20,2000000,19,Single Elimination,Group Stage,Seoul Olympic Hall,ASUS ROG
+10,TOUR0010,Valorant Open 2020,Valorant,EU,2020-05-29,2020-06-03,100000,23,Round Robin,Quarter-Final,Axiata Arena KL,Intel
+11,TOUR0011,League of Legends Invitational 2024,League of Legends,ME,2024-03-09,2024-03-23,2000000,15,Swiss,Wild Card,Seoul Olympic Hall,Logitech
+12,TOUR0012,Rocket League Championship 2022,Rocket League,LATAM,2022-02-18,2022-02-27,500000,17,GSL,Semi-Final,Axiata Arena KL,Secretlab
+13,TOUR0013,Overwatch 2 Major 2024,Overwatch 2,EU,2024-04-08,2024-04-15,100000,19,Single Elimination,Semi-Final,ESL One Cologne,NVIDIA
+14,TOUR0014,CS2 Cup 2020,CS2,LATAM,2020-02-03,2020-02-09,1000000,17,Round Robin,Quarter-Final,Seoul Olympic Hall,Logitech
+15,TOUR0015,Dota 2 Open 2022,Dota 2,APAC,2022-10-19,2022-10-29,500000,16,Swiss,Grand Final,Paris La Défense Arena,HyperX
+16,TOUR0016,CS2 Major 2024,CS2,NA,2024-01-15,2024-01-25,2000000,13,GSL,Playoffs,Online,Intel
+17,TOUR0017,Valorant Open 2024,Valorant,NA,2024-04-14,2024-04-16,1000000,12,Single Elimination,Wild Card,Seoul Olympic Hall,HyperX
+18,TOUR0018,Overwatch 2 Masters 2022,Overwatch 2,ME,2022-02-03,2022-02-05,2000000,29,Single Elimination,Grand Final,Online,SteelSeries
+19,TOUR0019,Valorant Championship 2020,Valorant,EU,2020-02-04,2020-02-14,250000,25,GSL,Semi-Final,Online,Monster Energy
+20,TOUR0020,League of Legends Championship 2022,League of Legends,LATAM,2022-12-09,2022-12-13,100000,14,Round Robin,Playoffs,Palacio Vistalegre Madrid,ASUS ROG
+21,TOUR0021,Fortnite Masters 2022,Fortnite,NA,2022-04-11,2022-04-20,100000,30,Single Elimination,Quarter-Final,Palacio Vistalegre Madrid,Intel
+22,TOUR0022,Apex Legends Masters 2022,Apex Legends,LATAM,2022-02-11,2022-02-21,2000000,9,Double Elimination,Wild Card,Online,Red Bull
+23,TOUR0023,Fortnite Major 2023,Fortnite,NA,2023-03-04,2023-03-07,10000,15,Round Robin,Quarter-Final,Paris La Défense Arena,Intel
+24,TOUR0024,Rocket League Major 2023,Rocket League,EU,2023-01-17,2023-01-28,10000,13,Double Elimination,Semi-Final,Online,NVIDIA
+25,TOUR0025,Apex Legends Major 2020,Apex Legends,LATAM,2020-06-06,2020-06-12,50000,26,GSL,Quarter-Final,ESL One Cologne,Razer
+26,TOUR0026,CS2 Open 2023,CS2,LATAM,2023-11-12,2023-11-25,25000,24,Single Elimination,Wild Card,Axiata Arena KL,Red Bull
+27,TOUR0027,League of Legends Open 2021,League of Legends,LATAM,2021-11-28,2021-12-09,1000000,32,Round Robin,Semi-Final,Online,Secretlab
+28,TOUR0028,Fortnite Open 2023,Fortnite,APAC,2023-02-06,2023-02-14,1000000,13,Single Elimination,Wild Card,ESL One Cologne,NVIDIA
+29,TOUR0029,League of Legends Championship 2020,League of Legends,APAC,2020-06-17,2020-06-23,50000,20,Swiss,Wild Card,Coca-Cola Arena Dubai,Razer
+30,TOUR0030,League of Legends Masters 2020,League of Legends,EU,2020-01-11,2020-01-17,2000000,19,Double Elimination,Semi-Final,Barclays Center NY,Red Bull
+31,TOUR0031,Overwatch 2 Cup 2023,Overwatch 2,NA,2023-02-14,2023-02-24,1000000,11,Round Robin,Group Stage,Barclays Center NY,SteelSeries
+32,TOUR0032,Fortnite Cup 2022,Fortnite,ME,2022-02-27,2022-03-01,250000,21,GSL,Grand Final,Barclays Center NY,Logitech
+33,TOUR0033,CS2 Championship 2023,CS2,EU,2023-11-04,2023-11-12,50000,12,Round Robin,Semi-Final,Palacio Vistalegre Madrid,Secretlab
+34,TOUR0034,CS2 Major 2022,CS2,EU,2022-06-09,2022-06-15,1000000,17,Round Robin,Grand Final,Barclays Center NY,ASUS ROG
+35,TOUR0035,Overwatch 2 Invitational 2023,Overwatch 2,LATAM,2023-05-01,2023-05-12,100000,22,Round Robin,Group Stage,Coca-Cola Arena Dubai,Intel
+36,TOUR0036,Apex Legends Major 2021,Apex Legends,ME,2021-11-05,2021-11-14,500000,21,Round Robin,Wild Card,Coca-Cola Arena Dubai,Razer
+37,TOUR0037,Dota 2 Invitational 2022,Dota 2,EU,2022-09-08,2022-09-15,50000,20,Swiss,Semi-Final,Palacio Vistalegre Madrid,NVIDIA
+38,TOUR0038,Apex Legends Major 2021,Apex Legends,EU,2021-07-28,2021-08-11,1000000,19,GSL,Group Stage,Seoul Olympic Hall,SteelSeries
+39,TOUR0039,Valorant Major 2024,Valorant,EU,2024-01-29,2024-02-07,100000,22,Swiss,Semi-Final,Barclays Center NY,Secretlab
+40,TOUR0040,Rocket League Masters 2021,Rocket League,ME,2021-05-10,2021-05-16,50000,30,Single Elimination,Grand Final,ESL One Cologne,Secretlab
+41,TOUR0041,Apex Legends Championship 2022,Apex Legends,NA,2022-12-30,2023-01-09,1000000,25,GSL,Group Stage,Axiata Arena KL,NVIDIA
+42,TOUR0042,Dota 2 Masters 2023,Dota 2,APAC,2023-09-08,2023-09-20,500000,13,GSL,Wild Card,Online,Monster Energy
+43,TOUR0043,League of Legends Masters 2020,League of Legends,LATAM,2020-01-22,2020-01-25,250000,15,Swiss,Playoffs,Seoul Olympic Hall,Razer
+44,TOUR0044,CS2 Invitational 2021,CS2,EU,2021-12-07,2021-12-09,2000000,11,Single Elimination,Semi-Final,ESL One Cologne,Red Bull
+45,TOUR0045,Rocket League Major 2021,Rocket League,LATAM,2021-12-03,2021-12-12,100000,24,Swiss,Grand Final,Axiata Arena KL,Red Bull
+46,TOUR0046,Overwatch 2 Major 2021,Overwatch 2,NA,2021-10-15,2021-10-18,250000,9,Single Elimination,Wild Card,Barclays Center NY,Razer
+47,TOUR0047,CS2 Open 2024,CS2,LATAM,2024-02-25,2024-03-01,50000,25,GSL,Quarter-Final,Axiata Arena KL,Monster Energy
+48,TOUR0048,Apex Legends Open 2023,Apex Legends,ME,2023-07-13,2023-07-17,50000,28,Swiss,Wild Card,ESL One Cologne,Intel
+49,TOUR0049,Overwatch 2 Cup 2023,Overwatch 2,NA,2023-04-27,2023-05-05,1000000,8,Double Elimination,Wild Card,Seoul Olympic Hall,ASUS ROG
+50,TOUR0050,League of Legends Cup 2023,League of Legends,LATAM,2023-01-04,2023-01-08,500000,18,Single Elimination,Quarter-Final,Paris La Défense Arena,ASUS ROG
+51,TOUR0051,Fortnite Open 2023,Fortnite,ME,2023-05-07,2023-05-15,1000000,26,Round Robin,Group Stage,Axiata Arena KL,Secretlab
+52,TOUR0052,Rocket League Championship 2023,Rocket League,APAC,2023-06-12,2023-06-23,25000,29,Single Elimination,Quarter-Final,Axiata Arena KL,Logitech
+53,TOUR0053,CS2 Masters 2022,CS2,ME,2022-02-03,2022-02-16,50000,24,GSL,Grand Final,ESL One Cologne,HyperX
+54,TOUR0054,Apex Legends Invitational 2021,Apex Legends,EU,2021-01-15,2021-01-24,50000,25,Round Robin,Quarter-Final,Paris La Défense Arena,HyperX
+55,TOUR0055,Overwatch 2 Cup 2023,Overwatch 2,ME,2023-06-22,2023-06-24,500000,8,Double Elimination,Grand Final,Coca-Cola Arena Dubai,Monster Energy
+56,TOUR0056,Overwatch 2 Cup 2022,Overwatch 2,NA,2022-04-17,2022-04-29,2000000,21,Swiss,Wild Card,Paris La Défense Arena,HyperX
+57,TOUR0057,Valorant Masters 2024,Valorant,EU,2024-04-07,2024-04-12,250000,9,GSL,Semi-Final,Seoul Olympic Hall,ASUS ROG
+58,TOUR0058,Overwatch 2 Championship 2023,Overwatch 2,ME,2023-01-30,2023-02-09,25000,26,GSL,Group Stage,Palacio Vistalegre Madrid,Razer
+59,TOUR0059,Overwatch 2 Invitational 2023,Overwatch 2,LATAM,2023-01-23,2023-01-28,1000000,11,Round Robin,Wild Card,Seoul Olympic Hall,Intel
+60,TOUR0060,Fortnite Major 2020,Fortnite,ME,2020-06-27,2020-07-06,25000,32,GSL,Quarter-Final,Seoul Olympic Hall,Razer
+61,TOUR0061,Apex Legends Invitational 2020,Apex Legends,ME,2020-12-05,2020-12-16,50000,14,GSL,Quarter-Final,Online,Razer
+62,TOUR0062,CS2 Masters 2021,CS2,EU,2021-10-24,2021-11-06,250000,17,GSL,Playoffs,Palacio Vistalegre Madrid,Red Bull
+63,TOUR0063,Valorant Major 2021,Valorant,EU,2021-07-21,2021-08-02,50000,30,Double Elimination,Quarter-Final,Seoul Olympic Hall,Razer
+64,TOUR0064,Apex Legends Masters 2022,Apex Legends,NA,2022-09-29,2022-10-03,250000,28,Swiss,Grand Final,ESL One Cologne,Red Bull
+65,TOUR0065,Rocket League Championship 2023,Rocket League,APAC,2023-11-23,2023-11-30,2000000,23,Single Elimination,Semi-Final,Online,Secretlab
+66,TOUR0066,Apex Legends Cup 2021,Apex Legends,ME,2021-03-22,2021-03-30,100000,23,Round Robin,Semi-Final,Axiata Arena KL,Razer
+67,TOUR0067,CS2 Championship 2023,CS2,NA,2023-03-05,2023-03-14,500000,29,Single Elimination,Group Stage,Online,Secretlab
+68,TOUR0068,CS2 Championship 2022,CS2,APAC,2022-06-22,2022-07-01,10000,21,Round Robin,Quarter-Final,Coca-Cola Arena Dubai,HyperX
+69,TOUR0069,Fortnite Major 2021,Fortnite,APAC,2021-05-27,2021-05-30,500000,29,Single Elimination,Wild Card,Coca-Cola Arena Dubai,Monster Energy
+70,TOUR0070,Dota 2 Open 2022,Dota 2,NA,2022-05-29,2022-06-10,25000,30,Double Elimination,Group Stage,Online,Secretlab
+71,TOUR0071,Dota 2 Masters 2022,Dota 2,EU,2022-11-29,2022-12-11,2000000,8,Single Elimination,Group Stage,Axiata Arena KL,Monster Energy
+72,TOUR0072,League of Legends Open 2021,League of Legends,APAC,2021-04-13,2021-04-21,25000,31,Round Robin,Group Stage,Barclays Center NY,Razer
+73,TOUR0073,Apex Legends Championship 2024,Apex Legends,ME,2024-05-03,2024-05-17,50000,28,Single Elimination,Wild Card,Coca-Cola Arena Dubai,SteelSeries
+74,TOUR0074,CS2 Open 2022,CS2,LATAM,2022-06-20,2022-06-27,100000,28,Swiss,Wild Card,Coca-Cola Arena Dubai,NVIDIA
+75,TOUR0075,League of Legends Open 2020,League of Legends,APAC,2020-07-24,2020-07-28,25000,26,Round Robin,Wild Card,ESL One Cologne,Monster Energy
+76,TOUR0076,Dota 2 Cup 2021,Dota 2,EU,2021-07-21,2021-08-02,25000,15,Single Elimination,Playoffs,Palacio Vistalegre Madrid,ASUS ROG
+77,TOUR0077,Dota 2 Open 2024,Dota 2,NA,2024-03-11,2024-03-19,250000,28,Swiss,Group Stage,Seoul Olympic Hall,Monster Energy
+78,TOUR0078,Overwatch 2 Cup 2023,Overwatch 2,LATAM,2023-07-30,2023-08-10,25000,24,Round Robin,Group Stage,Axiata Arena KL,HyperX
+79,TOUR0079,Apex Legends Championship 2022,Apex Legends,NA,2022-01-18,2022-01-28,50000,32,Single Elimination,Grand Final,Barclays Center NY,NVIDIA
+80,TOUR0080,Rocket League Major 2021,Rocket League,LATAM,2021-03-17,2021-03-19,10000,20,GSL,Playoffs,Palacio Vistalegre Madrid,Monster Energy
+81,TOUR0081,Apex Legends Open 2020,Apex Legends,EU,2020-06-17,2020-06-29,50000,16,Single Elimination,Group Stage,Palacio Vistalegre Madrid,SteelSeries
+82,TOUR0082,Fortnite Championship 2022,Fortnite,EU,2022-03-11,2022-03-22,25000,17,Double Elimination,Wild Card,ESL One Cologne,Intel
+83,TOUR0083,Apex Legends Major 2020,Apex Legends,EU,2020-08-25,2020-09-03,10000,17,Single Elimination,Wild Card,Coca-Cola Arena Dubai,Intel
+84,TOUR0084,Valorant Major 2020,Valorant,EU,2020-12-01,2020-12-10,500000,24,Double Elimination,Playoffs,Palacio Vistalegre Madrid,Razer
+85,TOUR0085,Rocket League Major 2024,Rocket League,APAC,2024-02-10,2024-02-13,10000,18,GSL,Grand Final,Palacio Vistalegre Madrid,Red Bull
+86,TOUR0086,League of Legends Championship 2022,League of Legends,APAC,2022-10-13,2022-10-22,500000,9,Round Robin,Grand Final,Coca-Cola Arena Dubai,HyperX
+87,TOUR0087,League of Legends Masters 2021,League of Legends,APAC,2021-04-12,2021-04-25,10000,9,Single Elimination,Group Stage,Seoul Olympic Hall,Secretlab
+88,TOUR0088,CS2 Championship 2021,CS2,APAC,2021-01-01,2021-01-03,1000000,15,Swiss,Semi-Final,Seoul Olympic Hall,Razer
+89,TOUR0089,Fortnite Invitational 2020,Fortnite,LATAM,2020-09-01,2020-09-11,10000,13,Swiss,Quarter-Final,Online,Red Bull
+90,TOUR0090,Rocket League Major 2021,Rocket League,APAC,2021-11-01,2021-11-04,2000000,8,Round Robin,Semi-Final,Seoul Olympic Hall,NVIDIA
+91,TOUR0091,Dota 2 Championship 2022,Dota 2,LATAM,2022-08-08,2022-08-15,2000000,32,Double Elimination,Quarter-Final,Seoul Olympic Hall,Intel
+92,TOUR0092,Dota 2 Cup 2023,Dota 2,EU,2023-01-14,2023-01-21,10000,18,Round Robin,Group Stage,ESL One Cologne,Red Bull
+93,TOUR0093,Dota 2 Cup 2022,Dota 2,EU,2022-05-09,2022-05-18,10000,12,Single Elimination,Wild Card,Palacio Vistalegre Madrid,Intel
+94,TOUR0094,Apex Legends Championship 2023,Apex Legends,LATAM,2023-12-06,2023-12-13,2000000,31,GSL,Group Stage,Barclays Center NY,HyperX
+95,TOUR0095,Valorant Invitational 2022,Valorant,APAC,2022-06-09,2022-06-21,50000,15,Round Robin,Semi-Final,Palacio Vistalegre Madrid,Monster Energy
+96,TOUR0096,Overwatch 2 Masters 2021,Overwatch 2,EU,2021-07-10,2021-07-15,25000,14,Double Elimination,Quarter-Final,Barclays Center NY,Red Bull
+97,TOUR0097,Overwatch 2 Invitational 2021,Overwatch 2,LATAM,2021-10-05,2021-10-13,25000,25,Swiss,Semi-Final,Seoul Olympic Hall,ASUS ROG
+98,TOUR0098,League of Legends Championship 2020,League of Legends,EU,2020-07-04,2020-07-08,250000,30,Double Elimination,Wild Card,Online,Razer
+99,TOUR0099,Dota 2 Masters 2021,Dota 2,LATAM,2021-12-29,2022-01-06,10000,29,Double Elimination,Semi-Final,Palacio Vistalegre Madrid,Intel
+100,TOUR0100,Dota 2 Open 2020,Dota 2,EU,2020-07-12,2020-07-21,25000,12,Single Elimination,Group Stage,Online,Logitech
+101,TOUR0101,Apex Legends Open 2022,Apex Legends,NA,2022-02-01,2022-02-13,25000,26,Single Elimination,Playoffs,Palacio Vistalegre Madrid,Intel
+102,TOUR0102,Overwatch 2 Masters 2020,Overwatch 2,ME,2020-09-20,2020-09-23,500000,11,Single Elimination,Group Stage,Paris La Défense Arena,HyperX
+103,TOUR0103,Apex Legends Invitational 2022,Apex Legends,EU,2022-10-13,2022-10-15,1000000,29,Round Robin,Grand Final,Coca-Cola Arena Dubai,Logitech
+104,TOUR0104,Rocket League Cup 2022,Rocket League,LATAM,2022-07-02,2022-07-06,10000,27,Round Robin,Playoffs,Seoul Olympic Hall,Secretlab
+105,TOUR0105,Overwatch 2 Major 2020,Overwatch 2,EU,2020-05-04,2020-05-07,250000,20,Double Elimination,Quarter-Final,ESL One Cologne,SteelSeries
+106,TOUR0106,Valorant Invitational 2022,Valorant,ME,2022-02-22,2022-03-08,500000,23,Round Robin,Playoffs,Paris La Défense Arena,NVIDIA
+107,TOUR0107,Apex Legends Masters 2021,Apex Legends,NA,2021-07-07,2021-07-11,10000,18,Single Elimination,Playoffs,Seoul Olympic Hall,ASUS ROG
+108,TOUR0108,Fortnite Major 2024,Fortnite,ME,2024-04-19,2024-04-30,100000,13,Double Elimination,Group Stage,Seoul Olympic Hall,ASUS ROG
+109,TOUR0109,Valorant Major 2024,Valorant,APAC,2024-04-13,2024-04-18,1000000,19,Double Elimination,Quarter-Final,Coca-Cola Arena Dubai,NVIDIA
+110,TOUR0110,Fortnite Cup 2023,Fortnite,LATAM,2023-04-26,2023-04-28,500000,26,GSL,Playoffs,Coca-Cola Arena Dubai,Logitech
+111,TOUR0111,Rocket League Cup 2020,Rocket League,NA,2020-12-25,2021-01-03,10000,10,GSL,Group Stage,Seoul Olympic Hall,Logitech
+112,TOUR0112,Overwatch 2 Open 2020,Overwatch 2,NA,2020-01-02,2020-01-09,100000,12,Round Robin,Semi-Final,Coca-Cola Arena Dubai,Intel
+113,TOUR0113,CS2 Invitational 2024,CS2,APAC,2024-05-04,2024-05-07,500000,10,GSL,Semi-Final,ESL One Cologne,Red Bull
+114,TOUR0114,Fortnite Invitational 2020,Fortnite,ME,2020-10-06,2020-10-10,1000000,28,Double Elimination,Grand Final,Axiata Arena KL,SteelSeries
+115,TOUR0115,Dota 2 Major 2023,Dota 2,NA,2023-09-25,2023-10-06,50000,20,Double Elimination,Semi-Final,Palacio Vistalegre Madrid,HyperX
+116,TOUR0116,Apex Legends Championship 2024,Apex Legends,ME,2024-04-27,2024-05-08,10000,13,GSL,Playoffs,Axiata Arena KL,Logitech
+117,TOUR0117,Overwatch 2 Masters 2020,Overwatch 2,APAC,2020-10-15,2020-10-22,25000,15,Double Elimination,Semi-Final,Axiata Arena KL,Red Bull
+118,TOUR0118,Valorant Championship 2021,Valorant,NA,2021-06-27,2021-07-02,100000,30,Round Robin,Group Stage,Axiata Arena KL,Red Bull
+119,TOUR0119,Apex Legends Masters 2022,Apex Legends,ME,2022-06-16,2022-06-29,1000000,13,Swiss,Grand Final,Paris La Défense Arena,Razer
+120,TOUR0120,League of Legends Invitational 2022,League of Legends,NA,2022-09-08,2022-09-22,100000,13,Single Elimination,Grand Final,Barclays Center NY,ASUS ROG
+121,TOUR0121,Rocket League Invitational 2020,Rocket League,NA,2020-08-02,2020-08-05,500000,13,Single Elimination,Grand Final,Coca-Cola Arena Dubai,SteelSeries
+122,TOUR0122,Overwatch 2 Invitational 2023,Overwatch 2,NA,2023-12-13,2023-12-15,1000000,28,Double Elimination,Quarter-Final,ESL One Cologne,Intel
+123,TOUR0123,Dota 2 Masters 2021,Dota 2,NA,2021-01-24,2021-02-01,250000,29,Double Elimination,Semi-Final,Palacio Vistalegre Madrid,Red Bull
+124,TOUR0124,Overwatch 2 Open 2020,Overwatch 2,LATAM,2020-11-10,2020-11-12,500000,8,Round Robin,Grand Final,Barclays Center NY,NVIDIA
+125,TOUR0125,League of Legends Masters 2020,League of Legends,APAC,2020-02-22,2020-02-27,50000,28,Swiss,Semi-Final,Barclays Center NY,Red Bull
+126,TOUR0126,Overwatch 2 Invitational 2022,Overwatch 2,LATAM,2022-09-28,2022-10-10,250000,10,Double Elimination,Wild Card,ESL One Cologne,Razer
+127,TOUR0127,CS2 Championship 2022,CS2,ME,2022-07-01,2022-07-03,250000,22,Double Elimination,Grand Final,Palacio Vistalegre Madrid,ASUS ROG
+128,TOUR0128,CS2 Open 2024,CS2,ME,2024-03-20,2024-04-02,25000,10,GSL,Wild Card,Axiata Arena KL,Monster Energy
+129,TOUR0129,Valorant Invitational 2022,Valorant,LATAM,2022-03-03,2022-03-13,1000000,25,GSL,Wild Card,Paris La Défense Arena,Logitech
+130,TOUR0130,League of Legends Open 2022,League of Legends,EU,2022-03-19,2022-04-01,10000,24,Single Elimination,Playoffs,Coca-Cola Arena Dubai,Secretlab
+131,TOUR0131,Dota 2 Invitational 2021,Dota 2,ME,2021-01-29,2021-02-02,10000,21,Double Elimination,Group Stage,ESL One Cologne,HyperX
+132,TOUR0132,Fortnite Cup 2024,Fortnite,APAC,2024-01-29,2024-02-12,25000,10,GSL,Grand Final,ESL One Cologne,Razer
+133,TOUR0133,Overwatch 2 Cup 2020,Overwatch 2,ME,2020-01-26,2020-02-09,1000000,11,Double Elimination,Grand Final,Coca-Cola Arena Dubai,NVIDIA
+134,TOUR0134,League of Legends Major 2020,League of Legends,LATAM,2020-08-04,2020-08-15,25000,17,Swiss,Playoffs,Axiata Arena KL,ASUS ROG
+135,TOUR0135,Overwatch 2 Cup 2023,Overwatch 2,ME,2023-03-17,2023-03-28,2000000,9,Swiss,Quarter-Final,Palacio Vistalegre Madrid,HyperX
+136,TOUR0136,Apex Legends Championship 2020,Apex Legends,APAC,2020-03-20,2020-03-28,500000,30,Swiss,Quarter-Final,Online,ASUS ROG
+137,TOUR0137,Fortnite Major 2021,Fortnite,APAC,2021-09-12,2021-09-18,250000,23,Double Elimination,Wild Card,Barclays Center NY,HyperX
+138,TOUR0138,Overwatch 2 Masters 2024,Overwatch 2,EU,2024-05-04,2024-05-11,250000,31,Double Elimination,Grand Final,Barclays Center NY,Secretlab
+139,TOUR0139,Overwatch 2 Masters 2024,Overwatch 2,ME,2024-04-04,2024-04-14,500000,9,Single Elimination,Playoffs,Coca-Cola Arena Dubai,ASUS ROG
+140,TOUR0140,CS2 Masters 2024,CS2,NA,2024-05-17,2024-05-27,10000,13,Single Elimination,Quarter-Final,Seoul Olympic Hall,Logitech
+141,TOUR0141,Valorant Major 2022,Valorant,NA,2022-01-08,2022-01-21,100000,16,GSL,Semi-Final,Paris La Défense Arena,Monster Energy
+142,TOUR0142,Valorant Invitational 2021,Valorant,ME,2021-05-10,2021-05-17,2000000,27,Swiss,Grand Final,Coca-Cola Arena Dubai,NVIDIA
+143,TOUR0143,Fortnite Open 2020,Fortnite,ME,2020-11-30,2020-12-06,25000,17,Single Elimination,Group Stage,ESL One Cologne,HyperX
+144,TOUR0144,Dota 2 Masters 2023,Dota 2,NA,2023-08-18,2023-08-23,100000,16,GSL,Wild Card,ESL One Cologne,Intel
+145,TOUR0145,CS2 Invitational 2023,CS2,LATAM,2023-08-18,2023-08-22,10000,15,Round Robin,Semi-Final,Palacio Vistalegre Madrid,Monster Energy
+146,TOUR0146,Overwatch 2 Cup 2021,Overwatch 2,NA,2021-05-31,2021-06-05,2000000,17,GSL,Wild Card,ESL One Cologne,Red Bull
+147,TOUR0147,Fortnite Invitational 2023,Fortnite,APAC,2023-02-23,2023-03-07,250000,17,Swiss,Wild Card,Barclays Center NY,Red Bull
+148,TOUR0148,Fortnite Major 2021,Fortnite,LATAM,2021-07-21,2021-07-27,250000,14,Single Elimination,Quarter-Final,Seoul Olympic Hall,NVIDIA
+149,TOUR0149,Fortnite Masters 2023,Fortnite,LATAM,2023-10-26,2023-10-30,10000,28,Round Robin,Grand Final,Palacio Vistalegre Madrid,Monster Energy
+150,TOUR0150,Valorant Cup 2023,Valorant,APAC,2023-04-09,2023-04-22,100000,18,GSL,Wild Card,Seoul Olympic Hall,Secretlab
+151,TOUR0151,Rocket League Open 2020,Rocket League,ME,2020-12-14,2020-12-26,50000,17,Double Elimination,Group Stage,Paris La Défense Arena,ASUS ROG
+152,TOUR0152,Fortnite Invitational 2023,Fortnite,APAC,2023-09-02,2023-09-05,100000,19,Swiss,Quarter-Final,Palacio Vistalegre Madrid,Razer
+153,TOUR0153,Rocket League Championship 2022,Rocket League,ME,2022-08-07,2022-08-10,2000000,9,Swiss,Wild Card,Barclays Center NY,Logitech
+154,TOUR0154,Apex Legends Cup 2022,Apex Legends,LATAM,2022-12-21,2022-12-27,1000000,9,Double Elimination,Quarter-Final,Coca-Cola Arena Dubai,Razer
+155,TOUR0155,Overwatch 2 Major 2020,Overwatch 2,APAC,2020-10-20,2020-10-27,50000,32,Round Robin,Group Stage,Paris La Défense Arena,HyperX
+156,TOUR0156,Valorant Cup 2020,Valorant,EU,2020-01-10,2020-01-19,250000,14,Swiss,Quarter-Final,Coca-Cola Arena Dubai,Red Bull
+157,TOUR0157,Apex Legends Open 2023,Apex Legends,ME,2023-07-21,2023-07-29,1000000,21,Single Elimination,Grand Final,ESL One Cologne,Intel
+158,TOUR0158,Fortnite Invitational 2020,Fortnite,APAC,2020-01-29,2020-02-05,100000,8,Double Elimination,Wild Card,Online,Logitech
+159,TOUR0159,CS2 Major 2020,CS2,LATAM,2020-07-29,2020-08-06,250000,13,Round Robin,Group Stage,Online,ASUS ROG
+160,TOUR0160,Fortnite Championship 2022,Fortnite,LATAM,2022-06-07,2022-06-19,50000,18,Double Elimination,Grand Final,Axiata Arena KL,HyperX
+161,TOUR0161,Dota 2 Championship 2021,Dota 2,EU,2021-04-04,2021-04-17,50000,14,GSL,Wild Card,Online,SteelSeries
+162,TOUR0162,Fortnite Cup 2023,Fortnite,NA,2023-12-27,2024-01-08,10000,20,GSL,Wild Card,Palacio Vistalegre Madrid,NVIDIA
+163,TOUR0163,Valorant Championship 2023,Valorant,LATAM,2023-09-17,2023-09-20,10000,9,Swiss,Wild Card,Barclays Center NY,Secretlab
+164,TOUR0164,Rocket League Major 2022,Rocket League,NA,2022-08-29,2022-09-11,50000,14,Round Robin,Wild Card,Online,Monster Energy
+165,TOUR0165,Rocket League Masters 2023,Rocket League,NA,2023-06-29,2023-07-10,50000,21,Round Robin,Group Stage,Barclays Center NY,Red Bull
+166,TOUR0166,Dota 2 Championship 2023,Dota 2,EU,2023-06-01,2023-06-06,250000,24,Swiss,Quarter-Final,Axiata Arena KL,ASUS ROG
+167,TOUR0167,Overwatch 2 Cup 2021,Overwatch 2,NA,2021-03-01,2021-03-14,2000000,18,Single Elimination,Quarter-Final,Online,Red Bull
+168,TOUR0168,Overwatch 2 Invitational 2020,Overwatch 2,LATAM,2020-11-01,2020-11-04,25000,31,Round Robin,Wild Card,Barclays Center NY,Logitech
+169,TOUR0169,Rocket League Major 2022,Rocket League,LATAM,2022-08-08,2022-08-10,25000,13,Round Robin,Group Stage,Palacio Vistalegre Madrid,Razer
+170,TOUR0170,League of Legends Cup 2020,League of Legends,LATAM,2020-07-13,2020-07-27,10000,8,Round Robin,Quarter-Final,Coca-Cola Arena Dubai,Razer
+171,TOUR0171,Rocket League Invitational 2024,Rocket League,LATAM,2024-02-10,2024-02-13,500000,18,Swiss,Quarter-Final,Barclays Center NY,Monster Energy
+172,TOUR0172,Apex Legends Championship 2023,Apex Legends,EU,2023-11-13,2023-11-22,1000000,28,Double Elimination,Quarter-Final,Barclays Center NY,Intel
+173,TOUR0173,Apex Legends Major 2023,Apex Legends,NA,2023-04-24,2023-05-03,2000000,13,Round Robin,Playoffs,ESL One Cologne,NVIDIA
+174,TOUR0174,CS2 Championship 2022,CS2,APAC,2022-09-16,2022-09-25,25000,21,Single Elimination,Grand Final,Online,ASUS ROG
+175,TOUR0175,Dota 2 Open 2023,Dota 2,LATAM,2023-10-03,2023-10-10,25000,21,Swiss,Wild Card,Seoul Olympic Hall,Razer
+176,TOUR0176,Valorant Invitational 2020,Valorant,LATAM,2020-01-24,2020-02-05,50000,24,Double Elimination,Grand Final,Paris La Défense Arena,Red Bull
+177,TOUR0177,Dota 2 Masters 2021,Dota 2,NA,2021-11-08,2021-11-14,10000,24,Swiss,Quarter-Final,ESL One Cologne,Logitech
+178,TOUR0178,Overwatch 2 Championship 2023,Overwatch 2,NA,2023-03-19,2023-03-28,25000,23,Single Elimination,Grand Final,Axiata Arena KL,Secretlab
+179,TOUR0179,Apex Legends Major 2022,Apex Legends,EU,2022-04-24,2022-04-26,10000,10,GSL,Playoffs,Palacio Vistalegre Madrid,SteelSeries
+180,TOUR0180,Overwatch 2 Masters 2021,Overwatch 2,ME,2021-11-29,2021-12-06,10000,15,GSL,Grand Final,Axiata Arena KL,NVIDIA
+181,TOUR0181,Fortnite Major 2024,Fortnite,APAC,2024-01-06,2024-01-15,25000,11,Single Elimination,Wild Card,Seoul Olympic Hall,Razer
+182,TOUR0182,Rocket League Major 2023,Rocket League,EU,2023-01-26,2023-02-05,500000,30,Double Elimination,Group Stage,Online,Secretlab
+183,TOUR0183,Apex Legends Major 2020,Apex Legends,EU,2020-08-07,2020-08-13,100000,14,Double Elimination,Group Stage,ESL One Cologne,Secretlab
+184,TOUR0184,Fortnite Cup 2020,Fortnite,ME,2020-08-08,2020-08-22,1000000,9,Swiss,Wild Card,Barclays Center NY,Secretlab
+185,TOUR0185,CS2 Open 2022,CS2,ME,2022-10-18,2022-10-20,10000,25,GSL,Grand Final,Paris La Défense Arena,HyperX
+186,TOUR0186,CS2 Masters 2020,CS2,APAC,2020-07-31,2020-08-08,500000,24,GSL,Grand Final,ESL One Cologne,Logitech
+187,TOUR0187,Fortnite Major 2021,Fortnite,ME,2021-08-25,2021-09-03,50000,12,GSL,Grand Final,Palacio Vistalegre Madrid,Razer
+188,TOUR0188,Dota 2 Major 2021,Dota 2,ME,2021-02-15,2021-02-20,250000,29,Double Elimination,Semi-Final,Coca-Cola Arena Dubai,SteelSeries
+189,TOUR0189,Fortnite Championship 2023,Fortnite,LATAM,2023-12-25,2023-12-28,500000,25,GSL,Grand Final,ESL One Cologne,ASUS ROG
+190,TOUR0190,League of Legends Invitational 2020,League of Legends,EU,2020-02-21,2020-02-29,50000,9,Double Elimination,Wild Card,Online,ASUS ROG
+191,TOUR0191,Rocket League Cup 2020,Rocket League,NA,2020-10-26,2020-10-28,250000,14,Round Robin,Playoffs,Online,Secretlab
+192,TOUR0192,Dota 2 Masters 2024,Dota 2,LATAM,2024-02-29,2024-03-12,1000000,15,Single Elimination,Playoffs,Palacio Vistalegre Madrid,Monster Energy
+193,TOUR0193,Fortnite Major 2023,Fortnite,EU,2023-02-04,2023-02-06,10000,31,GSL,Semi-Final,Seoul Olympic Hall,Secretlab
+194,TOUR0194,Fortnite Major 2024,Fortnite,EU,2024-03-26,2024-04-06,100000,32,Round Robin,Wild Card,Seoul Olympic Hall,Secretlab
+195,TOUR0195,League of Legends Open 2021,League of Legends,APAC,2021-01-17,2021-01-21,25000,20,Round Robin,Group Stage,ESL One Cologne,SteelSeries
+196,TOUR0196,CS2 Cup 2023,CS2,APAC,2023-04-11,2023-04-17,10000,18,Single Elimination,Grand Final,Coca-Cola Arena Dubai,HyperX
+197,TOUR0197,Valorant Open 2024,Valorant,ME,2024-05-03,2024-05-15,250000,23,Single Elimination,Playoffs,Axiata Arena KL,Razer
+198,TOUR0198,CS2 Open 2022,CS2,EU,2022-12-02,2022-12-05,50000,21,Single Elimination,Playoffs,ESL One Cologne,Razer
+199,TOUR0199,Fortnite Major 2021,Fortnite,NA,2021-11-09,2021-11-16,250000,14,GSL,Playoffs,Paris La Défense Arena,Intel
+200,TOUR0200,Fortnite Invitational 2022,Fortnite,LATAM,2022-07-01,2022-07-06,100000,9,Swiss,Wild Card,Axiata Arena KL,Red Bull
+201,TOUR0201,Rocket League Major 2020,Rocket League,APAC,2020-02-20,2020-03-01,500000,24,Swiss,Playoffs,Paris La Défense Arena,Intel
+202,TOUR0202,Dota 2 Major 2021,Dota 2,EU,2021-10-18,2021-10-28,25000,11,Single Elimination,Quarter-Final,Online,Logitech
+203,TOUR0203,Apex Legends Championship 2020,Apex Legends,APAC,2020-07-31,2020-08-05,1000000,28,Single Elimination,Group Stage,Coca-Cola Arena Dubai,Secretlab
+204,TOUR0204,League of Legends Masters 2020,League of Legends,APAC,2020-05-30,2020-06-01,50000,16,GSL,Playoffs,Barclays Center NY,Logitech
+205,TOUR0205,Apex Legends Championship 2022,Apex Legends,ME,2022-07-12,2022-07-24,1000000,21,Swiss,Semi-Final,Online,Red Bull
+206,TOUR0206,League of Legends Major 2024,League of Legends,APAC,2024-03-28,2024-04-10,10000,30,GSL,Group Stage,Axiata Arena KL,Red Bull
+207,TOUR0207,Rocket League Open 2023,Rocket League,LATAM,2023-05-27,2023-05-30,250000,32,Swiss,Grand Final,ESL One Cologne,Intel
+208,TOUR0208,Dota 2 Cup 2020,Dota 2,NA,2020-10-06,2020-10-19,1000000,25,Round Robin,Semi-Final,Coca-Cola Arena Dubai,Razer
+209,TOUR0209,CS2 Invitational 2020,CS2,NA,2020-09-09,2020-09-11,10000,26,GSL,Playoffs,ESL One Cologne,SteelSeries
+210,TOUR0210,Dota 2 Cup 2024,Dota 2,EU,2024-03-12,2024-03-25,500000,14,Double Elimination,Grand Final,Coca-Cola Arena Dubai,HyperX

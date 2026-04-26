@@ -1,0 +1,221 @@
+player_key,player_id,gamertag,first_name,last_name,country,game_title,role,org_name,region,date_of_birth,joined_date,annual_salary_usd,status
+1,PLY0001,xXGhost45,Marcus,Silva,Brazil,Dota 2,Midlaner,Blaze Syndicate,ME,2006-04-05,2019-02-24,369785,Active
+2,PLY0002,ProSnipr13,Peyton,Garcia,Germany,Dota 2,Midlaner,Sky Breakers,ME,2003-09-01,2018-04-19,309254,Inactive
+3,PLY0003,BattlePeak45,Drew,Smith,Turkey,Valorant,Initiator,Neon Rush,EU,2005-10-30,2022-09-28,193389,Active
+4,PLY0004,NightHawk21,Luca,Torres,Australia,League of Legends,Mid,Team Nova,LATAM,2001-11-09,2020-12-19,438167,Retired
+5,PLY0005,StormBreak20,Sam,Hall,Japan,Rocket League,Midfielder,Sky Breakers,NA,2004-12-08,2022-01-21,317698,Active
+6,PLY0006,ChaosRift20,Leon,Petrov,Egypt,Dota 2,Carry,Arctic Fox,APAC,2002-04-06,2021-02-12,252717,Active
+7,PLY0007,SilentBlade95,Jamie,Park,France,League of Legends,Support,Blaze Syndicate,EU,2005-02-13,2019-12-02,295043,Active
+8,PLY0008,ZeroHour91,Parker,Kim,Denmark,Dota 2,Offlaner,Lunar Raiders,NA,2006-08-14,2018-08-18,135087,Inactive
+9,PLY0009,VoidKing37,Avery,Diaz,Nigeria,Fortnite,Solo,Echo Strike,LATAM,2005-05-08,2023-08-07,222425,Active
+10,PLY0010,QuantumQ81,Blake,Müller,Japan,Rocket League,Midfielder,Shadow Protocol,LATAM,2004-07-22,2022-10-21,485717,Inactive
+11,PLY0011,LightBend73,Drew,Müller,Germany,Valorant,Duelist,Arctic Fox,LATAM,1999-09-19,2019-10-18,430277,Retired
+12,PLY0012,StormBreak86,Kai,Kim,UK,Rocket League,Midfielder,Echo Strike,ME,1998-02-17,2019-04-15,372412,Inactive
+13,PLY0013,IronSight24,Luca,Anderson,France,Apex Legends,Fragger,Echo Strike,APAC,2003-02-02,2018-01-14,393584,Retired
+14,PLY0014,LightBend23,Luca,Okafor,Egypt,Rocket League,Midfielder,Eclipse Gaming,EU,2003-09-11,2020-03-25,95131,Retired
+15,PLY0015,LightBend10,Luca,Hall,Sweden,Fortnite,Duo,Echo Strike,APAC,1998-03-21,2019-04-04,205306,Active
+16,PLY0016,BattlePeak20,Jordan,Petrov,Germany,Overwatch 2,Tank,Iron Wolf,EU,2006-07-13,2023-12-22,416517,Retired
+17,PLY0017,AceStrike43,Quinn,Brown,Japan,Apex Legends,Fragger,Neon Rush,LATAM,2004-01-18,2020-04-03,388790,Retired
+18,PLY0018,RiftRider76,Marcus,Park,UK,League of Legends,Jungle,Team Nova,ME,2000-07-09,2018-09-20,192254,Retired
+19,PLY0019,QuantumQ10,Drew,Taylor,Germany,Valorant,Initiator,Eclipse Gaming,NA,1998-10-04,2018-05-09,465696,Retired
+20,PLY0020,DarkFlame37,Drew,Diaz,Japan,CS2,Lurker,Titan Forge,LATAM,2004-06-18,2023-04-21,142400,Inactive
+21,PLY0021,NightHawk94,Casey,Silva,Australia,Fortnite,Duo,Blaze Syndicate,NA,2002-08-11,2023-03-28,467899,Retired
+22,PLY0022,NightHawk17,Marcus,Anderson,Australia,Fortnite,Solo,RedLine FC,LATAM,2000-10-15,2020-02-24,114724,Active
+23,PLY0023,ZeroHour69,Cameron,Okafor,Brazil,League of Legends,Bot,Arctic Fox,ME,2004-03-04,2019-02-06,41522,Active
+24,PLY0024,QuantumQ31,Kai,Hall,Australia,Overwatch 2,Damage,Team Nova,EU,2000-05-25,2022-07-01,488139,Inactive
+25,PLY0025,ZeroHour68,Alex,Kim,France,Apex Legends,IGL,Sky Breakers,APAC,2006-03-12,2023-06-17,96158,Active
+26,PLY0026,SwiftArrow17,Jordan,Taylor,Denmark,Fortnite,Solo,Echo Strike,ME,1998-07-25,2023-05-07,278638,Active
+27,PLY0027,VoidKing33,Jordan,Williams,Germany,League of Legends,Jungle,Shadow Protocol,EU,2002-07-12,2019-05-07,481766,Retired
+28,PLY0028,SkySlash20,Rowan,Novak,Australia,Fortnite,Duo,Neon Rush,LATAM,2000-04-16,2021-07-10,140140,Active
+29,PLY0029,ChaosRift68,Leon,Anderson,Canada,League of Legends,Top,RedLine FC,EU,2003-02-21,2019-02-14,53409,Retired
+30,PLY0030,NeonWolf18,Blake,Müller,Nigeria,Dota 2,Offlaner,Lunar Raiders,ME,2001-03-13,2019-10-09,244734,Retired
+31,PLY0031,LightBend11,Taylor,Lee,Norway,Rocket League,Midfielder,Phantom eSports,NA,1999-03-01,2019-07-05,153656,Retired
+32,PLY0032,ZeroHour46,Reese,Müller,Sweden,Dota 2,Offlaner,Vortex Union,APAC,2000-04-13,2020-12-17,279979,Active
+33,PLY0033,CyberFox45,Kai,Anderson,USA,Valorant,Controller,Neon Rush,EU,2006-08-25,2019-06-20,349030,Retired
+34,PLY0034,CyberFox81,Parker,Brown,USA,League of Legends,Top,Team Nova,APAC,2005-10-01,2019-09-03,301046,Retired
+35,PLY0035,CyberFox26,Reese,Müller,USA,Rocket League,Goalkeeper,Eclipse Gaming,EU,2006-12-05,2018-06-13,486295,Retired
+36,PLY0036,NightHawk55,Drew,Martin,Turkey,Apex Legends,IGL,Lunar Raiders,EU,2006-05-28,2019-09-26,139118,Active
+37,PLY0037,xXGhost32,Omar,Garcia,Denmark,Fortnite,Duo,Iron Wolf,NA,2006-12-30,2020-10-13,154883,Inactive
+38,PLY0038,DarkFlame38,Rayan,Novak,Brazil,Overwatch 2,Damage,Team Nova,EU,2001-06-04,2020-07-21,131876,Inactive
+39,PLY0039,VoidKing45,Chris,Diaz,Canada,Apex Legends,IGL,Phantom eSports,APAC,2004-01-06,2021-09-18,29470,Active
+40,PLY0040,ProSnipr23,Peyton,Diaz,Sweden,Apex Legends,Support,Shadow Protocol,ME,2006-03-04,2021-07-08,243796,Active
+41,PLY0041,BattlePeak34,Avery,Young,France,Valorant,Sentinel,RedLine FC,EU,1998-01-07,2023-10-31,437843,Inactive
+42,PLY0042,IronSight89,Cameron,Chen,Canada,League of Legends,Mid,StormClaw,APAC,2003-09-09,2021-06-20,364643,Inactive
+43,PLY0043,SwiftArrow26,Ivan,Walker,Brazil,Apex Legends,IGL,Shadow Protocol,APAC,2002-04-02,2019-12-14,337707,Inactive
+44,PLY0044,xXGhost48,Reese,Lewis,France,Dota 2,Support,Vortex Union,LATAM,2006-10-24,2021-08-12,258787,Retired
+45,PLY0045,DarkFlame31,Casey,Williams,Norway,League of Legends,Mid,Lunar Raiders,EU,2003-10-13,2021-10-04,63961,Retired
+46,PLY0046,SilentBlade28,Taylor,Petrov,USA,Valorant,Initiator,StormClaw,ME,2003-05-01,2018-10-26,253769,Active
+47,PLY0047,StormBreak73,Ivan,Thompson,Australia,Dota 2,Midlaner,Titan Forge,NA,2005-05-11,2018-01-23,483010,Inactive
+48,PLY0048,LightBend69,Drew,Okafor,USA,Dota 2,Carry,Vortex Union,ME,2003-02-13,2019-07-01,435173,Retired
+49,PLY0049,RiftRider88,Rowan,Torres,Egypt,Apex Legends,IGL,Lunar Raiders,LATAM,2003-01-01,2019-10-14,404889,Inactive
+50,PLY0050,QuantumQ91,Blake,Harris,France,Overwatch 2,Support,Phantom eSports,APAC,2000-09-06,2021-01-29,245619,Active
+51,PLY0051,IronSight79,Blake,Torres,Germany,CS2,AWPer,Iron Wolf,EU,2000-08-05,2022-04-18,378829,Active
+52,PLY0052,IronSight79,Cameron,Garcia,UK,Apex Legends,Fragger,Echo Strike,ME,2000-04-27,2022-09-17,219198,Retired
+53,PLY0053,BattlePeak58,Alex,Robinson,UK,Valorant,Controller,Echo Strike,LATAM,2001-05-08,2022-05-17,462452,Retired
+54,PLY0054,SwiftArrow87,Dmitri,White,Nigeria,Dota 2,Support,Vortex Union,NA,2000-06-17,2021-01-22,243503,Inactive
+55,PLY0055,StormBreak31,Chris,Martin,Egypt,Overwatch 2,Tank,Echo Strike,LATAM,2004-12-23,2023-12-28,29138,Retired
+56,PLY0056,xXGhost20,Peyton,Martin,Norway,Apex Legends,Fragger,Neon Rush,LATAM,2003-03-07,2020-01-15,41363,Inactive
+57,PLY0057,IronSight53,Casey,Smith,Turkey,Apex Legends,Support,Lunar Raiders,NA,2006-06-08,2022-09-23,147262,Inactive
+58,PLY0058,SwiftArrow16,Alex,White,Canada,Dota 2,Carry,Team Nova,EU,2006-10-05,2018-06-14,410435,Active
+59,PLY0059,SkySlash29,Jin,Stone,Brazil,CS2,IGL,Sky Breakers,LATAM,2005-07-05,2019-04-14,310682,Retired
+60,PLY0060,NeonWolf31,Blake,Harris,Sweden,League of Legends,Jungle,Team Nova,APAC,2001-06-28,2019-03-19,318397,Retired
+61,PLY0061,StormBreak60,Leon,Hall,Denmark,Dota 2,Carry,Blaze Syndicate,APAC,2004-08-22,2020-09-21,68425,Retired
+62,PLY0062,NightHawk82,Rowan,Clark,Turkey,Valorant,Controller,Eclipse Gaming,NA,2003-12-23,2022-10-21,361827,Retired
+63,PLY0063,xXGhost63,Marcus,Torres,Egypt,Overwatch 2,Tank,Echo Strike,LATAM,2002-11-11,2022-01-23,348229,Retired
+64,PLY0064,AceStrike76,Riley,Garcia,Norway,Rocket League,Midfielder,StormClaw,ME,2004-01-14,2023-06-04,258727,Inactive
+65,PLY0065,QuantumQ21,Chris,Robinson,France,Overwatch 2,Tank,Shadow Protocol,LATAM,2006-06-01,2023-03-19,313765,Inactive
+66,PLY0066,IronSight33,Alex,Johnson,UK,Dota 2,Offlaner,Neon Rush,ME,2006-12-12,2020-11-24,193435,Retired
+67,PLY0067,SwiftArrow11,Omar,Diaz,Japan,Dota 2,Carry,RedLine FC,EU,2000-09-15,2022-07-23,271155,Retired
+68,PLY0068,DarkFlame67,Quinn,Anderson,Turkey,Valorant,Duelist,Blaze Syndicate,EU,2001-04-20,2020-06-26,227022,Inactive
+69,PLY0069,NeonWolf70,Leon,Taylor,Japan,Fortnite,Duo,Blaze Syndicate,LATAM,2006-05-14,2021-09-16,199450,Inactive
+70,PLY0070,QuantumQ25,Taylor,Diaz,Denmark,Dota 2,Offlaner,Sky Breakers,LATAM,1999-05-05,2020-01-29,115422,Inactive
+71,PLY0071,LightBend86,Dmitri,Taylor,France,League of Legends,Jungle,Iron Wolf,APAC,2001-04-28,2020-07-20,204205,Active
+72,PLY0072,BlitzMax45,Ivan,Brown,USA,Valorant,Controller,Lunar Raiders,LATAM,2005-10-27,2019-06-02,349427,Active
+73,PLY0073,BattlePeak46,Rayan,Stone,UK,Overwatch 2,Damage,Neon Rush,LATAM,2001-10-27,2020-01-26,41936,Active
+74,PLY0074,StormBreak72,Jin,Chen,Germany,Valorant,Initiator,Sky Breakers,NA,1999-09-04,2021-05-29,59659,Retired
+75,PLY0075,SkySlash86,Luca,Garcia,Turkey,Dota 2,Hard Support,Vortex Union,APAC,2002-04-08,2023-01-20,491317,Retired
+76,PLY0076,BattlePeak89,Cameron,Walker,USA,League of Legends,Jungle,Arctic Fox,NA,2005-01-06,2020-05-14,153750,Active
+77,PLY0077,SwiftArrow19,Drew,Okafor,South Korea,Valorant,Sentinel,Team Nova,EU,2003-01-20,2023-04-09,167703,Inactive
+78,PLY0078,RiftRider19,Ivan,Walker,Norway,Dota 2,Offlaner,Phantom eSports,ME,2006-11-01,2020-03-21,237895,Active
+79,PLY0079,ZeroHour28,Marcus,Müller,Germany,Valorant,Initiator,Blaze Syndicate,ME,2006-11-21,2021-06-13,326974,Inactive
+80,PLY0080,RiftRider98,Parker,Silva,France,Apex Legends,Support,Phantom eSports,ME,2003-08-12,2023-07-16,244511,Active
+81,PLY0081,IronSight87,Omar,Garcia,France,Valorant,Duelist,Arctic Fox,APAC,2000-07-26,2018-03-26,415954,Retired
+82,PLY0082,AceStrike70,Jordan,Harris,Japan,Overwatch 2,Damage,Lunar Raiders,LATAM,2000-01-14,2022-11-21,347810,Active
+83,PLY0083,CyberFox52,Quinn,Park,Canada,League of Legends,Jungle,Vortex Union,APAC,2001-09-12,2022-08-14,378684,Retired
+84,PLY0084,SwiftArrow14,Avery,Lewis,UK,League of Legends,Mid,Titan Forge,LATAM,2000-10-30,2021-08-17,75776,Retired
+85,PLY0085,SwiftArrow69,Jin,Stone,Australia,Valorant,Initiator,Titan Forge,LATAM,2003-10-25,2022-01-21,341439,Retired
+86,PLY0086,ProSnipr36,Parker,Harris,France,CS2,Support,Team Nova,ME,2002-11-30,2023-06-09,78662,Active
+87,PLY0087,ChaosRift80,Ivan,Okafor,USA,Apex Legends,Fragger,Phantom eSports,EU,2000-07-09,2019-04-10,256931,Inactive
+88,PLY0088,ChaosRift75,Carlos,Thompson,Denmark,Rocket League,Goalkeeper,Vortex Union,ME,2003-05-31,2023-04-19,142785,Active
+89,PLY0089,SkySlash75,Avery,Tanaka,Denmark,CS2,Entry Fragger,Echo Strike,ME,2001-02-05,2022-08-27,193192,Inactive
+90,PLY0090,ChaosRift48,Jin,Stone,Egypt,Overwatch 2,Tank,Eclipse Gaming,ME,2003-01-04,2023-06-07,195944,Retired
+91,PLY0091,IronSight34,Avery,Smith,Denmark,Dota 2,Hard Support,Titan Forge,LATAM,2002-04-18,2020-08-14,463797,Active
+92,PLY0092,DarkFlame58,Chris,White,Australia,CS2,IGL,Shadow Protocol,APAC,1998-06-01,2019-06-02,278345,Active
+93,PLY0093,RiftRider22,Rayan,Robinson,Japan,Overwatch 2,Tank,Lunar Raiders,EU,2006-02-07,2019-08-14,229946,Active
+94,PLY0094,ZeroHour53,Quinn,Clark,Sweden,Apex Legends,IGL,Arctic Fox,ME,1998-11-25,2021-09-07,461872,Inactive
+95,PLY0095,DarkFlame79,Chris,Anderson,USA,League of Legends,Jungle,Blaze Syndicate,NA,2005-01-29,2021-03-23,134268,Inactive
+96,PLY0096,NightHawk66,Sam,Harris,South Korea,Rocket League,Striker,Team Nova,APAC,1998-07-08,2021-08-21,432408,Inactive
+97,PLY0097,BlitzMax41,Jamie,Garcia,Japan,Apex Legends,IGL,Iron Wolf,NA,2005-08-24,2020-01-08,104120,Retired
+98,PLY0098,SkySlash97,Rayan,Kim,Brazil,Overwatch 2,Support,Arctic Fox,APAC,1999-08-10,2020-08-09,256775,Inactive
+99,PLY0099,xXGhost69,Blake,Martin,Nigeria,Rocket League,Midfielder,Vortex Union,APAC,2004-02-17,2019-10-10,53724,Retired
+100,PLY0100,CyberFox98,Taylor,Anderson,France,Overwatch 2,Damage,Vortex Union,NA,2000-03-26,2022-04-25,462393,Active
+101,PLY0101,NeonWolf83,Avery,Taylor,France,Rocket League,Striker,Team Nova,ME,2005-05-20,2022-06-10,158906,Retired
+102,PLY0102,ProSnipr87,Luca,White,Denmark,Overwatch 2,Damage,Titan Forge,APAC,2006-09-13,2020-07-31,333276,Active
+103,PLY0103,SkySlash42,Marcus,Tanaka,Norway,CS2,Entry Fragger,Titan Forge,LATAM,2005-01-14,2018-06-11,176969,Active
+104,PLY0104,BlitzMax21,Peyton,Park,Nigeria,Rocket League,Goalkeeper,Sky Breakers,EU,2006-05-20,2022-08-29,107085,Retired
+105,PLY0105,LightBend74,Omar,Park,Nigeria,Rocket League,Striker,Neon Rush,APAC,2000-11-18,2023-05-28,437832,Active
+106,PLY0106,BlitzMax38,Parker,Chen,Egypt,Apex Legends,IGL,StormClaw,NA,2002-02-07,2019-01-05,429545,Inactive
+107,PLY0107,RiftRider57,Reese,Silva,Norway,Rocket League,Midfielder,Arctic Fox,EU,2002-04-10,2022-03-02,71804,Inactive
+108,PLY0108,SwiftArrow51,Alex,Lee,Nigeria,Dota 2,Carry,Blaze Syndicate,APAC,2005-02-15,2023-03-17,491781,Retired
+109,PLY0109,BlitzMax15,Cameron,Silva,USA,Rocket League,Goalkeeper,Echo Strike,ME,1999-04-21,2019-02-03,138102,Active
+110,PLY0110,NeonWolf95,Avery,Smith,Denmark,Apex Legends,IGL,StormClaw,NA,2006-04-29,2019-09-25,479211,Inactive
+111,PLY0111,ZeroHour14,Rowan,Garcia,Denmark,Fortnite,Solo,Lunar Raiders,APAC,2002-12-22,2022-12-27,138791,Active
+112,PLY0112,SwiftArrow92,Leon,Park,Canada,Valorant,Sentinel,Lunar Raiders,LATAM,2001-02-04,2020-02-17,79046,Active
+113,PLY0113,SkySlash12,Leon,Tanaka,USA,Fortnite,Solo,Lunar Raiders,ME,1999-05-31,2020-04-20,50971,Active
+114,PLY0114,QuantumQ52,Peyton,Tanaka,Turkey,CS2,Lurker,Iron Wolf,EU,1998-01-12,2021-02-09,465052,Retired
+115,PLY0115,AceStrike24,Blake,Clark,Norway,Valorant,Initiator,Titan Forge,EU,1998-03-02,2022-01-07,429179,Retired
+116,PLY0116,AceStrike43,Chris,Stone,USA,CS2,IGL,Phantom eSports,LATAM,2003-11-25,2019-04-11,405943,Inactive
+117,PLY0117,LightBend85,Luca,Park,Germany,Overwatch 2,Support,Titan Forge,ME,2000-06-26,2018-06-27,396284,Inactive
+118,PLY0118,xXGhost17,Parker,Anderson,UK,Apex Legends,Support,Blaze Syndicate,LATAM,2005-09-11,2019-03-19,272042,Active
+119,PLY0119,IronSight87,Omar,Chen,South Korea,League of Legends,Jungle,Shadow Protocol,ME,2001-01-31,2021-08-24,214703,Inactive
+120,PLY0120,SkySlash65,Parker,Williams,Germany,League of Legends,Support,Vortex Union,EU,2006-01-31,2020-05-30,240480,Inactive
+121,PLY0121,RiftRider61,Chris,Lewis,Australia,League of Legends,Mid,Neon Rush,APAC,2002-10-15,2021-07-04,363708,Active
+122,PLY0122,DarkFlame18,Leon,Hall,Germany,League of Legends,Top,Blaze Syndicate,APAC,2002-11-04,2019-01-31,405379,Active
+123,PLY0123,BattlePeak81,Reese,Novak,Japan,Fortnite,Squad,Lunar Raiders,LATAM,1999-05-16,2022-08-10,200387,Retired
+124,PLY0124,SkySlash49,Jordan,Walker,Canada,League of Legends,Support,Arctic Fox,LATAM,2003-09-10,2020-05-21,96123,Active
+125,PLY0125,NeonWolf81,Rayan,Silva,Canada,League of Legends,Mid,StormClaw,ME,2004-06-09,2020-07-15,438216,Retired
+126,PLY0126,SwiftArrow13,Rowan,Martin,Sweden,Rocket League,Striker,Titan Forge,APAC,2000-01-09,2021-01-24,383416,Inactive
+127,PLY0127,AceStrike28,Jamie,Stone,Sweden,Apex Legends,Fragger,Blaze Syndicate,ME,1999-08-05,2018-05-06,63107,Active
+128,PLY0128,RiftRider53,Avery,Garcia,South Korea,Fortnite,Duo,Shadow Protocol,ME,2006-02-03,2021-08-21,422285,Active
+129,PLY0129,BlitzMax30,Omar,Novak,Turkey,Valorant,Duelist,StormClaw,LATAM,2001-01-19,2022-12-20,362046,Retired
+130,PLY0130,ZeroHour37,Parker,Garcia,Turkey,League of Legends,Mid,Arctic Fox,ME,2002-10-27,2019-03-31,163502,Inactive
+131,PLY0131,ChaosRift15,Skyler,Martin,Brazil,Apex Legends,IGL,Neon Rush,EU,1998-08-13,2018-02-01,122176,Active
+132,PLY0132,ChaosRift51,Luca,Diaz,Germany,Valorant,Sentinel,Iron Wolf,LATAM,2006-05-18,2022-10-30,107114,Retired
+133,PLY0133,LightBend81,Ivan,Petrov,Egypt,Fortnite,Solo,Team Nova,LATAM,2002-06-15,2018-06-23,243704,Active
+134,PLY0134,BattlePeak64,Rayan,Torres,Sweden,Apex Legends,IGL,Phantom eSports,LATAM,2005-03-07,2022-09-07,166789,Active
+135,PLY0135,SkySlash68,Chris,Okafor,Egypt,Fortnite,Solo,StormClaw,ME,2002-11-24,2019-03-10,142567,Inactive
+136,PLY0136,StormBreak49,Skyler,Chen,Denmark,Fortnite,Solo,RedLine FC,NA,2001-09-26,2019-11-20,55044,Retired
+137,PLY0137,NeonWolf54,Skyler,Tanaka,Denmark,CS2,AWPer,Sky Breakers,EU,1999-02-26,2019-08-23,149201,Retired
+138,PLY0138,VoidKing32,Riley,Harris,Turkey,Overwatch 2,Damage,Echo Strike,ME,2006-06-18,2023-01-13,372110,Retired
+139,PLY0139,IronSight90,Marcus,Lee,Canada,CS2,IGL,Arctic Fox,APAC,1998-10-07,2023-04-05,246844,Inactive
+140,PLY0140,NeonWolf74,Peyton,Novak,Germany,Rocket League,Goalkeeper,Eclipse Gaming,APAC,2003-01-26,2018-06-04,44826,Active
+141,PLY0141,VoidKing88,Marcus,Robinson,Sweden,Apex Legends,Support,Echo Strike,ME,2004-07-05,2018-06-18,250789,Retired
+142,PLY0142,SkySlash70,Casey,Torres,Japan,CS2,Entry Fragger,Echo Strike,APAC,2003-01-20,2019-02-28,440180,Retired
+143,PLY0143,AceStrike15,Kai,Williams,Brazil,Overwatch 2,Damage,Iron Wolf,APAC,2003-11-17,2023-11-12,334713,Inactive
+144,PLY0144,StormBreak62,Carlos,Walker,Turkey,Fortnite,Squad,Arctic Fox,APAC,2004-09-14,2018-08-03,428782,Active
+145,PLY0145,SwiftArrow96,Chris,Silva,Australia,Rocket League,Goalkeeper,Phantom eSports,ME,2006-02-12,2019-09-08,189777,Retired
+146,PLY0146,NeonWolf49,Riley,Hall,Norway,Apex Legends,Fragger,RedLine FC,LATAM,2004-09-03,2018-12-14,177310,Retired
+147,PLY0147,BlitzMax95,Yuki,Torres,Denmark,League of Legends,Bot,Eclipse Gaming,APAC,2003-09-14,2022-01-22,24558,Active
+148,PLY0148,DarkFlame34,Casey,Torres,Brazil,CS2,AWPer,Titan Forge,NA,1998-11-13,2021-04-26,457723,Retired
+149,PLY0149,LightBend14,Luca,Brown,Norway,Fortnite,Squad,Iron Wolf,EU,1999-06-21,2022-03-24,95872,Retired
+150,PLY0150,AceStrike66,Luca,Lee,USA,Apex Legends,Support,Shadow Protocol,APAC,2005-08-02,2020-08-30,247888,Retired
+151,PLY0151,QuantumQ78,Yuki,Smith,Brazil,Rocket League,Goalkeeper,Shadow Protocol,LATAM,2000-03-05,2022-02-15,370628,Inactive
+152,PLY0152,StormBreak74,Luca,Walker,Japan,Apex Legends,Fragger,Neon Rush,NA,2000-03-28,2019-07-21,472704,Retired
+153,PLY0153,NeonWolf80,Quinn,Robinson,Nigeria,League of Legends,Support,Titan Forge,EU,1999-05-26,2021-03-13,58974,Inactive
+154,PLY0154,LightBend28,Parker,Young,Egypt,Apex Legends,Fragger,Eclipse Gaming,NA,2000-06-28,2023-01-22,478800,Inactive
+155,PLY0155,LightBend57,Jordan,Kim,Brazil,Apex Legends,Fragger,Eclipse Gaming,NA,2002-03-16,2020-07-08,29778,Retired
+156,PLY0156,BlitzMax27,Marcus,Torres,USA,Rocket League,Goalkeeper,Blaze Syndicate,LATAM,2005-10-22,2019-07-23,412851,Inactive
+157,PLY0157,VoidKing12,Rowan,Stone,France,Dota 2,Midlaner,Phantom eSports,APAC,2004-02-26,2023-12-02,236907,Active
+158,PLY0158,ProSnipr40,Taylor,Silva,Australia,Overwatch 2,Tank,RedLine FC,NA,1999-03-31,2023-08-10,327863,Retired
+159,PLY0159,QuantumQ28,Skyler,Taylor,France,Apex Legends,Fragger,Shadow Protocol,LATAM,2004-11-23,2021-12-16,141124,Active
+160,PLY0160,VoidKing77,Leon,Martin,Canada,League of Legends,Support,RedLine FC,ME,2004-02-07,2023-09-10,427306,Active
+161,PLY0161,DarkFlame15,Avery,Robinson,Norway,Apex Legends,Support,Titan Forge,NA,2000-11-04,2018-03-08,202220,Inactive
+162,PLY0162,NightHawk84,Drew,White,Denmark,Fortnite,Solo,Eclipse Gaming,EU,1998-07-01,2021-12-14,301268,Retired
+163,PLY0163,DarkFlame90,Parker,Thompson,South Korea,CS2,Entry Fragger,Neon Rush,EU,2006-01-11,2023-02-18,34390,Active
+164,PLY0164,ProSnipr50,Yuki,Tanaka,Nigeria,Rocket League,Midfielder,Team Nova,EU,2002-06-20,2023-04-24,147809,Inactive
+165,PLY0165,ProSnipr93,Jamie,Robinson,Canada,Rocket League,Striker,Echo Strike,LATAM,2006-12-19,2022-02-16,244088,Retired
+166,PLY0166,StormBreak53,Parker,Young,South Korea,Overwatch 2,Support,Titan Forge,ME,2003-07-31,2022-02-13,499604,Inactive
+167,PLY0167,CyberFox20,Yuki,Chen,Australia,CS2,Lurker,Phantom eSports,APAC,2001-04-18,2021-08-08,68790,Retired
+168,PLY0168,RiftRider87,Taylor,Walker,Denmark,Apex Legends,Fragger,Vortex Union,NA,2005-09-26,2022-12-24,199311,Retired
+169,PLY0169,NeonWolf88,Rayan,Hall,Australia,Rocket League,Midfielder,Arctic Fox,LATAM,2006-11-16,2018-08-23,54343,Inactive
+170,PLY0170,AceStrike13,Skyler,Clark,South Korea,Overwatch 2,Tank,Titan Forge,APAC,1999-06-02,2018-10-03,138729,Inactive
+171,PLY0171,ProSnipr87,Avery,Taylor,South Korea,Overwatch 2,Damage,Phantom eSports,ME,2002-03-04,2022-12-24,415076,Active
+172,PLY0172,StormBreak50,Skyler,Park,Norway,Rocket League,Striker,Iron Wolf,LATAM,1999-04-10,2018-04-17,400705,Retired
+173,PLY0173,SwiftArrow25,Avery,Hall,France,Rocket League,Midfielder,Neon Rush,LATAM,2003-01-02,2020-05-28,335799,Active
+174,PLY0174,VoidKing67,Sam,Müller,South Korea,Overwatch 2,Tank,Eclipse Gaming,NA,2005-08-25,2021-08-02,365140,Retired
+175,PLY0175,ChaosRift30,Reese,Walker,Denmark,CS2,Support,Sky Breakers,EU,2003-09-15,2020-07-07,78628,Active
+176,PLY0176,xXGhost56,Yuki,Johnson,Japan,Fortnite,Duo,Echo Strike,NA,2004-03-09,2019-06-16,335837,Active
+177,PLY0177,DarkFlame77,Taylor,Kim,Australia,Apex Legends,IGL,Arctic Fox,NA,1998-10-30,2019-05-29,181213,Inactive
+178,PLY0178,LightBend54,Parker,Martin,South Korea,CS2,AWPer,Lunar Raiders,NA,2002-11-08,2023-08-22,492475,Active
+179,PLY0179,ChaosRift31,Skyler,Müller,South Korea,Fortnite,Squad,Echo Strike,APAC,2000-07-12,2021-11-18,287051,Active
+180,PLY0180,SwiftArrow45,Blake,Tanaka,South Korea,Rocket League,Midfielder,Arctic Fox,EU,2003-12-26,2019-01-18,278493,Retired
+181,PLY0181,AceStrike94,Peyton,Müller,Sweden,Fortnite,Squad,Team Nova,ME,1998-06-18,2018-04-27,57584,Inactive
+182,PLY0182,BattlePeak63,Marcus,Tanaka,Sweden,Valorant,Sentinel,Neon Rush,LATAM,2005-01-12,2021-04-01,351544,Active
+183,PLY0183,StormBreak48,Yuki,Clark,UK,League of Legends,Top,Vortex Union,LATAM,1999-10-10,2022-12-06,232905,Active
+184,PLY0184,BlitzMax50,Chris,Lee,Egypt,Fortnite,Squad,Titan Forge,APAC,2001-11-15,2022-06-22,83559,Retired
+185,PLY0185,IronSight40,Reese,Silva,UK,League of Legends,Mid,Phantom eSports,NA,2003-01-16,2020-10-12,88860,Inactive
+186,PLY0186,SkySlash63,Avery,Robinson,Brazil,CS2,Support,Titan Forge,EU,2004-06-24,2021-07-04,114527,Inactive
+187,PLY0187,DarkFlame49,Skyler,Smith,UK,Valorant,Duelist,Sky Breakers,EU,2002-05-30,2023-09-02,254720,Retired
+188,PLY0188,ProSnipr46,Jamie,Novak,UK,Overwatch 2,Damage,Phantom eSports,LATAM,2004-01-08,2018-02-03,459162,Active
+189,PLY0189,NeonWolf61,Omar,Diaz,Canada,Valorant,Sentinel,RedLine FC,APAC,1998-07-29,2020-03-08,205066,Active
+190,PLY0190,RiftRider80,Avery,Williams,France,League of Legends,Jungle,Titan Forge,APAC,1999-02-01,2022-06-02,210663,Retired
+191,PLY0191,BlitzMax35,Jamie,Harris,Sweden,Apex Legends,IGL,Iron Wolf,APAC,1998-06-14,2018-07-05,35402,Inactive
+192,PLY0192,BlitzMax87,Skyler,Smith,Nigeria,CS2,Support,StormClaw,ME,2004-11-16,2021-07-28,100197,Retired
+193,PLY0193,BattlePeak53,Jin,Walker,Japan,Overwatch 2,Support,Lunar Raiders,NA,2004-04-24,2021-05-12,263980,Inactive
+194,PLY0194,NightHawk63,Chris,Martin,Sweden,Rocket League,Midfielder,Vortex Union,APAC,2005-09-19,2018-04-20,327952,Retired
+195,PLY0195,BattlePeak83,Yuki,Harris,Brazil,Valorant,Sentinel,Blaze Syndicate,ME,1999-11-30,2023-11-18,344790,Inactive
+196,PLY0196,QuantumQ14,Riley,Lewis,Sweden,League of Legends,Jungle,StormClaw,EU,1998-03-19,2022-12-12,179465,Inactive
+197,PLY0197,CyberFox74,Ivan,Tanaka,Turkey,Overwatch 2,Support,Iron Wolf,ME,2006-02-27,2018-09-13,385029,Active
+198,PLY0198,DarkFlame77,Reese,Torres,Australia,Fortnite,Solo,RedLine FC,APAC,2003-02-26,2023-12-24,194477,Retired
+199,PLY0199,ZeroHour88,Luca,Robinson,UK,Dota 2,Midlaner,Neon Rush,APAC,2001-02-16,2021-05-07,132895,Retired
+200,PLY0200,DarkFlame50,Casey,Thompson,UK,Fortnite,Squad,Phantom eSports,ME,2006-12-02,2021-01-25,165884,Retired
+201,PLY0201,StormBreak54,Reese,Kim,Turkey,CS2,Support,Phantom eSports,APAC,1998-06-22,2021-03-24,389415,Inactive
+202,PLY0202,DarkFlame37,Marcus,Diaz,Brazil,Rocket League,Midfielder,Phantom eSports,ME,2005-10-22,2021-01-17,86970,Retired
+203,PLY0203,QuantumQ16,Peyton,Petrov,Norway,Dota 2,Midlaner,Eclipse Gaming,LATAM,1998-08-04,2019-02-15,231688,Active
+204,PLY0204,BlitzMax10,Leon,Harris,Japan,CS2,IGL,Arctic Fox,EU,2005-04-28,2023-05-03,265320,Inactive
+205,PLY0205,ProSnipr21,Chris,Walker,Norway,Dota 2,Hard Support,Echo Strike,EU,2006-04-14,2018-06-02,493795,Inactive
+206,PLY0206,AceStrike14,Omar,Lewis,Egypt,Apex Legends,Support,Team Nova,NA,2000-02-03,2021-03-31,474665,Inactive
+207,PLY0207,NightHawk52,Peyton,Lee,France,Overwatch 2,Support,Echo Strike,EU,2004-02-04,2023-11-18,273952,Retired
+208,PLY0208,SilentBlade24,Parker,Diaz,Canada,CS2,IGL,Iron Wolf,NA,2005-04-09,2020-11-19,391752,Retired
+209,PLY0209,ChaosRift82,Chris,Clark,Norway,Dota 2,Midlaner,StormClaw,ME,2004-11-07,2022-07-19,448580,Inactive
+210,PLY0210,NightHawk33,Kai,Kim,South Korea,Overwatch 2,Damage,StormClaw,EU,2000-10-13,2018-01-28,151726,Inactive
+211,PLY0211,IronSight48,Luca,Diaz,Sweden,Valorant,Controller,Sky Breakers,NA,2005-05-01,2022-01-12,378210,Retired
+212,PLY0212,ChaosRift30,Sam,Smith,Australia,Rocket League,Midfielder,Shadow Protocol,EU,1999-04-26,2021-04-23,207698,Active
+213,PLY0213,BlitzMax68,Riley,Johnson,Denmark,Fortnite,Duo,RedLine FC,EU,2005-11-15,2023-04-13,412069,Active
+214,PLY0214,SkySlash20,Leon,Harris,Japan,Overwatch 2,Support,Echo Strike,ME,2005-11-22,2022-01-21,55948,Active
+215,PLY0215,SwiftArrow74,Jordan,Lewis,Brazil,CS2,AWPer,Phantom eSports,EU,2001-09-05,2023-11-02,246651,Retired
+216,PLY0216,VoidKing75,Peyton,Johnson,UK,Valorant,Sentinel,Vortex Union,ME,1999-06-25,2023-10-04,232802,Active
+217,PLY0217,ChaosRift12,Reese,Smith,Australia,Rocket League,Striker,Phantom eSports,NA,2006-05-13,2020-06-11,318201,Inactive
+218,PLY0218,VoidKing79,Jamie,Thompson,USA,League of Legends,Bot,Iron Wolf,EU,1998-05-10,2021-03-21,229364,Retired
+219,PLY0219,CyberFox57,Dmitri,Anderson,Nigeria,Apex Legends,Support,Arctic Fox,ME,2002-03-27,2022-03-19,57074,Active
+220,PLY0220,NeonWolf25,Marcus,Robinson,South Korea,Apex Legends,IGL,Team Nova,NA,1999-06-06,2020-07-01,452686,Inactive
