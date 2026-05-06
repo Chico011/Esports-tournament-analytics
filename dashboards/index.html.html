@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)file:///C:/Users/HSEF%202026/Downloads/esports_dashboard_v3_fixed.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Esports Tournament Analytics — Collins Odoh</title>
+<link href="./Esports Tournament Analytics_files/css2" rel="stylesheet">
+<script src="./Esports Tournament Analytics_files/chart.umd.js.download"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#07090d;--s1:#0d1117;--s2:#131923;--s3:#1a2433;
+  --b1:rgba(255,255,255,0.04);--b2:rgba(255,255,255,0.08);--b3:rgba(255,255,255,0.15);
+  --cyan:#00d4ff;--lime:#b8ff3e;--orange:#ff6b35;--gold:#ffc93c;--pink:#f472b6;--purple:#a78bfa;
+  --text:#e8edf2;--muted:#5a6a7a;--soft:#8a9baa;
+  --ff:'Bebas Neue',sans-serif;--fb:'Syne',sans-serif;--fm:'JetBrains Mono',monospace;
+}
+body{background:var(--bg);color:var(--text);font-family:var(--fb);min-height:100vh;overflow-x:hidden;}
+
+/* SCAN LINES EFFECT */
+body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradient(
+  0deg,transparent,transparent 2px,rgba(0,212,255,0.01) 2px,rgba(0,212,255,0.01) 4px);
+  pointer-events:none;z-index:0;}
+
+.wrap{position:relative;z-index:1;max-width:1440px;margin:0 auto;padding:24px 22px;}
+
+/* HEADER */
+.hdr{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:end;
+  margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid var(--b2);
+  animation:up .5s ease both;}
+.hdr-eyebrow{font-family:var(--fm);font-size:10px;color:var(--cyan);
+  letter-spacing:.25em;margin-bottom:8px;display:flex;align-items:center;gap:10px;}
+.hdr-eyebrow::before{content:'';width:24px;height:1px;background:var(--cyan);}
+h1{font-family:var(--ff);font-size:64px;line-height:.95;letter-spacing:.02em;}
+h1 .hl{color:var(--cyan);}
+h1 .hl2{color:var(--lime);}
+.hdr-right{display:flex;flex-direction:column;align-items:flex-end;gap:6px;}
+.author{font-family:var(--fm);font-size:11px;color:var(--muted);}
+.author strong{color:var(--soft);}
+.db-info{display:flex;gap:10px;}
+.badge{font-family:var(--fm);font-size:9px;padding:3px 9px;border-radius:3px;
+  border:1px solid var(--b3);color:var(--muted);letter-spacing:.1em;}
+
+/* KPI STRIP */
+.kpi-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;
+  background:var(--b1);border:1px solid var(--b2);border-radius:10px;
+  overflow:hidden;margin-bottom:16px;animation:up .5s .05s ease both;}
+.kpi{background:var(--s1);padding:16px 18px;position:relative;overflow:hidden;transition:background .2s;}
+.kpi:hover{background:var(--s2);}
+.kpi-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px;}
+.kpi-label{font-family:var(--fm);font-size:9px;color:var(--muted);letter-spacing:.15em;text-transform:uppercase;}
+.kpi-icon{font-size:14px;opacity:.4;}
+.kpi-val{font-family:var(--ff);font-size:38px;line-height:1;margin-bottom:2px;}
+.kpi-sub{font-family:var(--fm);font-size:9px;color:var(--muted);}
+.cn{color:var(--cyan);}.lm{color:var(--lime);}.or{color:var(--orange);}
+.gd{color:var(--gold);}.pk{color:var(--pink);}.pu{color:var(--purple);}
+
+/* MAIN GRID */
+.row{display:grid;gap:12px;margin-bottom:12px;}
+.r-6{grid-template-columns:repeat(6,1fr);}
+.r-3{grid-template-columns:repeat(3,1fr);}
+.r-2{grid-template-columns:1fr 1fr;}
+.r-21{grid-template-columns:2fr 1fr;}
+.r-12{grid-template-columns:1fr 2fr;}
+.r-13{grid-template-columns:1fr 3fr;}
+.r-23{grid-template-columns:2fr 3fr;}
+.span2{grid-column:span 2;}
+.span3{grid-column:span 3;}
+
+/* CARD */
+.card{background:var(--s1);border:1px solid var(--b1);border-radius:10px;
+  padding:16px 18px;transition:border-color .2s;animation:up .5s .1s ease both;}
+.card:hover{border-color:var(--b2);}
+.ct{font-family:var(--fm);font-size:9px;color:var(--muted);letter-spacing:.15em;
+  text-transform:uppercase;margin-bottom:12px;display:flex;align-items:center;gap:6px;}
+.cdot{width:5px;height:5px;border-radius:50%;}
+
+/* BAR LIST */
+.bl{display:flex;flex-direction:column;gap:7px;}
+.bi{display:flex;flex-direction:column;gap:3px;}
+.bm{display:flex;justify-content:space-between;font-size:11px;}
+.bn{color:var(--text);font-weight:500;}
+.bv{font-family:var(--fm);font-size:10px;color:var(--muted);}
+.bt{height:3px;background:var(--b2);border-radius:2px;overflow:hidden;}
+.bf{height:100%;border-radius:2px;transition:width 1s cubic-bezier(.4,0,.2,1);}
+
+/* STAT BOXES */
+.stat-boxes{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+.sb{background:var(--s2);border-radius:7px;padding:12px 14px;}
+.sb-label{font-family:var(--fm);font-size:9px;color:var(--muted);letter-spacing:.12em;
+  text-transform:uppercase;margin-bottom:4px;}
+.sb-val{font-family:var(--ff);font-size:30px;line-height:1;}
+
+/* SEGMENT ROWS */
+.seg-row{display:flex;flex-direction:column;gap:6px;margin-top:4px;}
+.seg-item{display:flex;align-items:center;gap:10px;padding:8px 12px;
+  background:var(--s2);border-radius:6px;border-left:2px solid transparent;}
+.seg-name{font-size:11px;font-weight:500;flex:1;}
+.seg-count{font-family:var(--ff);font-size:20px;}
+.seg-pct{font-family:var(--fm);font-size:9px;color:var(--muted);}
+
+/* REGION HEXES */
+.region-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:4px;}
+.reg-box{background:var(--s2);border-radius:7px;padding:12px 8px;text-align:center;
+  border-top:2px solid var(--b2);}
+.reg-name{font-family:var(--fm);font-size:9px;color:var(--muted);letter-spacing:.1em;margin-bottom:4px;}
+.reg-val{font-family:var(--ff);font-size:26px;}
+.reg-sub{font-family:var(--fm);font-size:9px;color:var(--muted);}
+
+/* FORMAT TABLE */
+.fmt-table{width:100%;border-collapse:collapse;font-size:11px;}
+.fmt-table td{padding:7px 0;border-bottom:1px solid var(--b1);vertical-align:middle;}
+.fmt-table tr:last-child td{border-bottom:none;}
+.fmt-bar-wrap{width:60%;padding-left:10px;}
+.fmt-bar-track{height:3px;background:var(--b2);border-radius:2px;overflow:hidden;}
+.fmt-bar-fill{height:100%;border-radius:2px;}
+
+/* FOOTER */
+footer{border-top:1px solid var(--b1);margin-top:20px;padding-top:16px;
+  display:flex;justify-content:space-between;
+  font-family:var(--fm);font-size:9px;color:var(--muted);letter-spacing:.08em;}
+footer strong{color:var(--cyan);}
+
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- HEADER -->
+<header class="hdr">
+  <div>
+    <div class="hdr-eyebrow">Esports Data Warehouse · ESportsTournamentDW · esports schema</div>
+    <h1>Esports <span class="hl">Analytics</span><br><span class="hl2">Dashboard</span></h1>
+  </div>
+  <div class="hdr-right">
+    <div class="author">Built by <strong>Collins Odoh</strong></div>
+    <div class="db-info">
+      <span class="badge">dim_players</span>
+      <span class="badge">dim_tournaments</span>
+      <span class="badge">fact_matchstats</span>
+      <span class="badge">report_players</span>
+      <span class="badge">report_tournaments</span>
+    </div>
+  </div>
+</header>
+
+<!-- KPI STRIP -->
+<div class="kpi-strip">
+  <div class="kpi"><div class="kpi-top"><div class="kpi-label">Total Players</div></div><div class="kpi-val cn">220</div><div class="kpi-sub">8 game titles</div></div>
+  <div class="kpi"><div class="kpi-top"><div class="kpi-label">Total Kills</div></div><div class="kpi-val lm">5,513</div><div class="kpi-sub">all matches</div></div>
+  <div class="kpi"><div class="kpi-top"><div class="kpi-label">Total Deaths</div></div><div class="kpi-val or">5,043</div><div class="kpi-sub">all matches</div></div>
+  <div class="kpi"><div class="kpi-top"><div class="kpi-label">Prize Pool</div></div><div class="kpi-val gd">$91M</div><div class="kpi-sub">210 tournaments</div></div>
+  <div class="kpi"><div class="kpi-top"><div class="kpi-label">Avg KDA</div></div><div class="kpi-val pk">4.57</div><div class="kpi-sub">all players</div></div>
+  <div class="kpi"><div class="kpi-top"><div class="kpi-label">Avg Headshot %</div></div><div class="kpi-val pu">40.3%</div><div class="kpi-sub">all matches</div></div>
+</div>
+
+<!-- ROW 1: STAT BOXES + REGION + CHART -->
+<div class="row r-3" style="margin-bottom:12px;">
+  <div class="card">
+    <div class="ct"><span class="cdot" style="background:var(--cyan)"></span>Match stats overview</div>
+    <div class="stat-boxes">
+      <div class="sb"><div class="sb-label">Assists</div><div class="sb-val cn">3,636</div></div>
+      <div class="sb"><div class="sb-label">Clutches</div><div class="sb-val lm">571</div></div>
+      <div class="sb"><div class="sb-label">First Bloods</div><div class="sb-val or">995</div></div>
+      <div class="sb"><div class="sb-label">Avg ACS</div><div class="sb-val gd">248</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="ct"><span class="cdot" style="background:var(--lime)"></span>Players by region</div>
+    <div class="region-grid">
+      <div class="reg-box" style="border-color:var(--cyan)"><div class="reg-name">ME</div><div class="reg-val cn">47</div><div class="reg-sub">1,422 kills</div></div>
+      <div class="reg-box" style="border-color:var(--lime)"><div class="reg-name">LATAM</div><div class="reg-val lm">46</div><div class="reg-sub">1,008 kills</div></div>
+      <div class="reg-box" style="border-color:var(--lime)"><div class="reg-name">APAC</div><div class="reg-val lm">46</div><div class="reg-sub">1,410 kills</div></div>
+      <div class="reg-box" style="border-color:var(--orange)"><div class="reg-name">EU</div><div class="reg-val or">45</div><div class="reg-sub">1,027 kills</div></div>
+      <div class="reg-box" style="border-color:var(--muted)"><div class="reg-name">NA</div><div class="reg-val" style="color:var(--soft)">36</div><div class="reg-sub">646 kills</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="ct"><span class="cdot" style="background:var(--gold)"></span>Player status breakdown</div>
+    <div style="height:130px;position:relative;margin-bottom:10px;">
+      <canvas id="statusChart" role="img" aria-label="Donut chart of player status retired 81 active 73 inactive 66" width="450" height="195" style="display: block; box-sizing: border-box; height: 130px; width: 300px;"></canvas>
+    </div>
+    <div class="seg-row">
+      <div class="seg-item" style="border-color:var(--orange)"><span class="seg-name">Retired</span><span class="seg-count or">81</span><span class="seg-pct">37%</span></div>
+      <div class="seg-item" style="border-color:var(--cyan)"><span class="seg-name">Active</span><span class="seg-count cn">73</span><span class="seg-pct">33%</span></div>
+      <div class="seg-item" style="border-color:var(--muted)"><span class="seg-name">Inactive</span><span class="seg-count" style="color:var(--soft)">66</span><span class="seg-pct">30%</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ROW 2: PRIZE POOL + KILLS BY GAME -->
+<div class="row r-2" style="margin-bottom:12px;">
+  <div class="card">
+    <div class="ct"><span class="cdot" style="background:var(--gold)"></span>Prize pool by game title ($M)</div>
+    <div style="height:220px;position:relative;">
+      <canvas id="prizeChart" role="img" aria-label="Horizontal bar chart prize pool by game" width="675" height="330" style="display: block; box-sizing: border-box; height: 220px; width: 450px;"></canvas>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ct"><span class="cdot" style="background:var(--lime)"></span>Avg headshot % by game title</div>
+    <div style="height:220px;position:relative;">
+      <canvas id="hsChart" role="img" aria-label="Bar chart avg headshot percentage by game" width="675" height="330" style="display: block; box-sizing: border-box; height: 220px; width: 450px;"></canvas>
+    </div>
+  </div>
+</div>
+
+<!-- ROW 3: PLAYER SEGMENTS + SALARY + FORMAT + MAP -->
+<div class="row r-2" style="margin-bottom:12px;">
+  <div class="card">
+    <div class="ct"><span class="cdot" style="background:var(--purple)"></span>Player salary segments</div>
+    <div style="height:180px;position:relative;margin-bottom:10px;">
+      <canvas id="salaryChart" role="img" aria-label="Donut chart salary segments" width="675" height="270" style="display: block; box-sizing: border-box; height: 180px; width: 450px;"></canvas>
+    </div>
+    <div class="bl">
+      <div class="bi"><div class="bm"><span class="bn">Above $300K</span><span class="bv">90 players</span></div><div class="bt"><div class="bf" style="width:100%;background:var(--purple);"></div></div></div>
+      <div class="bi"><div class="bm"><span class="bn">$150K – $300K</span><span class="bv">70 players</span></div><div class="bt"><div class="bf" style="width:78%;background:var(--cyan);"></div></div></div>
+      <div class="bi"><div class="bm"><span class="bn">$50K – $150K</span><span class="bv">50 players</span></div><div class="bt"><div class="bf" style="width:56%;background:var(--lime);"></div></div></div>
+      <div class="bi"><div class="bm"><span class="bn">Below $50K</span><span class="bv">10 players</span></div><div class="bt"><div class="bf" style="width:11%;background:var(--muted);"></div></div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="ct"><span class="cdot" style="background:var(--orange)"></span>Tournament formats</div>
+    <table class="fmt-table">
+      <tbody>
+        <tr>
+          <td style="color:var(--text);font-weight:500;">Single Elimination</td>
+          <td style="font-family:var(--fm);font-size:10px;color:var(--muted);">45</td>
+          <td class="fmt-bar-wrap"><div class="fmt-bar-track"><div class="fmt-bar-fill" style="width:100%;background:var(--cyan);"></div></div></td>
+        </tr>
+        <tr>
+          <td style="color:var(--text);font-weight:500;">GSL</td>
+          <td style="font-family:var(--fm);font-size:10px;color:var(--muted);">43</td>
+          <td class="fmt-bar-wrap"><div class="fmt-bar-track"><div class="fmt-bar-fill" style="width:96%;background:var(--cyan);"></div></div></td>
+        </tr>
+        <tr>
+          <td style="color:var(--text);font-weight:500;">Round Robin</td>
+          <td style="font-family:var(--fm);font-size:10px;color:var(--muted);">43</td>
+          <td class="fmt-bar-wrap"><div class="fmt-bar-track"><div class="fmt-bar-fill" style="width:96%;background:var(--lime);"></div></div></td>
+        </tr>
+        <tr>
+          <td style="color:var(--text);font-weight:500;">Double Elimination</td>
+          <td style="font-family:var(--fm);font-size:10px;color:var(--muted);">42</td>
+          <td class="fmt-bar-wrap"><div class="fmt-bar-track"><div class="fmt-bar-fill" style="width:93%;background:var(--lime);"></div></div></td>
+        </tr>
+        <tr>
+          <td style="color:var(--text);font-weight:500;">Swiss</td>
+          <td style="font-family:var(--fm);font-size:10px;color:var(--muted);">37</td>
+          <td class="fmt-bar-wrap"><div class="fmt-bar-track"><div class="fmt-bar-fill" style="width:82%;background:var(--orange);"></div></div></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="ct" style="margin-top:16px;"><span class="cdot" style="background:var(--cyan)"></span>Avg kills per match by map</div>
+    <div class="bl">
+      <div class="bi"><div class="bm"><span class="bn">Bind</span><span class="bv">28.4</span></div><div class="bt"><div class="bf" style="width:100%;background:var(--cyan);"></div></div></div>
+      <div class="bi"><div class="bm"><span class="bn">Inferno</span><span class="bv">28.4</span></div><div class="bt"><div class="bf" style="width:100%;background:var(--cyan);"></div></div></div>
+      <div class="bi"><div class="bm"><span class="bn">Ancient</span><span class="bv">27.4</span></div><div class="bt"><div class="bf" style="width:96%;background:var(--lime);"></div></div></div>
+      <div class="bi"><div class="bm"><span class="bn">Vertigo</span><span class="bv">26.8</span></div><div class="bt"><div class="bf" style="width:94%;background:var(--lime);"></div></div></div>
+      <div class="bi"><div class="bm"><span class="bn">Icebox</span><span class="bv">24.8</span></div><div class="bt"><div class="bf" style="width:87%;background:var(--gold);"></div></div></div>
+      <div class="bi"><div class="bm"><span class="bn">Dust2</span><span class="bv">23.9</span></div><div class="bt"><div class="bf" style="width:84%;background:var(--gold);"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ROW 4: TOURNAMENT SEGMENTS -->
+<div class="row r-3" style="margin-bottom:12px;">
+  <div class="card" style="border-color:rgba(255,196,60,.15);">
+    <div class="ct"><span class="cdot" style="background:var(--gold)"></span>Major tournaments</div>
+    <div style="font-family:var(--ff);font-size:72px;color:var(--gold);line-height:1;">73</div>
+    <div style="font-family:var(--fm);font-size:10px;color:var(--muted);margin-top:6px;">35% of all events · prize ≥ $500K</div>
+    <div style="height:4px;background:var(--b2);border-radius:2px;margin-top:12px;overflow:hidden;">
+      <div style="width:35%;height:100%;background:var(--gold);border-radius:2px;"></div>
+    </div>
+  </div>
+  <div class="card" style="border-color:rgba(167,139,250,.15);">
+    <div class="ct"><span class="cdot" style="background:var(--purple)"></span>Mid-tier tournaments</div>
+    <div style="font-family:var(--ff);font-size:72px;color:var(--purple);line-height:1;">47</div>
+    <div style="font-family:var(--fm);font-size:10px;color:var(--muted);margin-top:6px;">22% of all events · $100K – $500K</div>
+    <div style="height:4px;background:var(--b2);border-radius:2px;margin-top:12px;overflow:hidden;">
+      <div style="width:22%;height:100%;background:var(--purple);border-radius:2px;"></div>
+    </div>
+  </div>
+  <div class="card" style="border-color:rgba(255,107,53,.15);">
+    <div class="ct"><span class="cdot" style="background:var(--orange)"></span>Minor tournaments</div>
+    <div style="font-family:var(--ff);font-size:72px;color:var(--orange);line-height:1;">90</div>
+    <div style="font-family:var(--fm);font-size:10px;color:var(--muted);margin-top:6px;">43% of all events · prize &lt; $100K</div>
+    <div style="height:4px;background:var(--b2);border-radius:2px;margin-top:12px;overflow:hidden;">
+      <div style="width:43%;height:100%;background:var(--orange);border-radius:2px;"></div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div>Esports Tournament Analytics · <strong>ESportsTournamentDW</strong> · Schema: esports · 5 Tables/Views · 14 SQL Scripts</div>
+  <div>Portfolio project by <strong>Collins Odoh</strong> · linkedin.com/in/collins-odoh-97b497382</div>
+</footer>
+
+</div>
+
+<script>
+const gc='rgba(255,255,255,0.04)';const lc='#5a6a7a';
+const cyan='#00d4ff',lime='#b8ff3e',orange='#ff6b35',gold='#ffc93c',pink='#f472b6',purple='#a78bfa';
+
+new Chart(document.getElementById('statusChart'),{
+  type:'doughnut',
+  data:{labels:['Retired','Active','Inactive'],
+    datasets:[{data:[81,73,66],backgroundColor:[orange,cyan,'#1a2433'],borderWidth:0}]},
+  options:{responsive:true,maintainAspectRatio:false,cutout:'72%',
+    plugins:{legend:{display:false}}}
+});
+
+new Chart(document.getElementById('prizeChart'),{
+  type:'bar',
+  data:{
+    labels:['OW2','Apex','CS2','Fortnite','Rocket Lg','Dota 2','Valorant','LoL'],
+    datasets:[{data:[19.5,17.1,11.7,9.7,9.4,8.9,7.7,7.1],
+      backgroundColor:[gold,gold,cyan,cyan,lime,lime,orange,orange],
+      borderRadius:4,borderSkipped:false}]
+  },
+  options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false}},
+    scales:{
+      x:{ticks:{color:lc,font:{size:10},callback:v=>'$'+v+'M'},grid:{color:gc}},
+      y:{ticks:{color:'#9ab0c0',font:{size:11}},grid:{display:false}}
+    }}
+});
+
+new Chart(document.getElementById('hsChart'),{
+  type:'bar',
+  data:{
+    labels:['LoL','OW2','CS2','Valorant','Apex','Rocket Lg','Fortnite','Dota 2'],
+    datasets:[{data:[42.8,42.5,42.2,40.2,39.3,39.2,38.8,34.9],
+      backgroundColor:[lime,lime,cyan,cyan,gold,gold,orange,orange],
+      borderRadius:4,borderSkipped:false}]
+  },
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false}},
+    scales:{
+      x:{ticks:{color:lc,font:{size:10}},grid:{display:false}},
+      y:{ticks:{color:lc,font:{size:10},callback:v=>v+'%'},grid:{color:gc}}
+    }}
+});
+
+new Chart(document.getElementById('salaryChart'),{
+  type:'doughnut',
+  data:{labels:['Above $300K','$150K-$300K','$50K-$150K','Below $50K'],
+    datasets:[{data:[90,70,50,10],backgroundColor:[purple,cyan,lime,'#1a2433'],borderWidth:0}]},
+  options:{responsive:true,maintainAspectRatio:false,cutout:'68%',
+    plugins:{legend:{display:false}}}
+});
+</script>
+
+
+</body></html>
